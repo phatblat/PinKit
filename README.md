@@ -1,3 +1,6 @@
+# 📌 PinKit
+
+Swift framework for the [Pinboard API](https://pinboard.in/api).
 
 # 📄 License
 
