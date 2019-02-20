@@ -45,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B5858AE4221D1BC800103530 /* JSON */ = {isa = PBXFileReference; lastKnownFileType = folder; path = JSON; sourceTree = "<group>"; };
 		OBJ_12 /* PinKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinKitTests.swift; sourceTree = "<group>"; };
 		OBJ_13 /* gradle */ = {isa = PBXFileReference; lastKnownFileType = folder; path = gradle; sourceTree = SOURCE_ROOT; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -83,6 +84,7 @@
 		OBJ_11 /* PinKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				B5858AE4221D1BC800103530 /* JSON */,
 				OBJ_12 /* PinKitTests.swift */,
 			);
 			name = PinKitTests;
@@ -98,7 +100,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -107,7 +109,6 @@
 				OBJ_13 /* gradle */,
 				OBJ_14 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -192,7 +193,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
