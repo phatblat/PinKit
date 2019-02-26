@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		"PinKit::PinKitPackageTests::ProductTarget" /* PinKitPackageTests */ = {
+		PinKit::PinKitPackageTests::ProductTarget /* PinKitPackageTests */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = OBJ_277 /* Build configuration list for PBXAggregateTarget "PinKitPackageTests" */;
 			buildPhases = (
@@ -442,6 +442,19 @@
 		"PinKit::PinKitTests::Product" /* PinKitTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Quick::Quick::Product" /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Quick::QuickObjCRuntime::Product" /* QuickObjCRuntime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuickObjCRuntime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_22 /* PinKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* PinKit.swift */; };
+		OBJ_29 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_40 /* PinKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* PinKitTests.swift */; };
+		OBJ_42 /* PinKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = PinKit::PinKit::Product /* PinKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		OBJ_12 /* PinKitTests.swift */ = {isa = PBXFileReference; path = PinKitTests.swift; sourceTree = "<group>"; };
+		OBJ_13 /* gradle */ = {isa = PBXFileReference; path = gradle; sourceTree = SOURCE_ROOT; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* PinKit.swift */ = {isa = PBXFileReference; path = PinKit.swift; sourceTree = "<group>"; };
+		PinKit::PinKit::Product /* PinKit.framework */ = {isa = PBXFileReference; path = PinKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		PinKit::PinKitTests::Product /* PinKitTests.xctest */ = {isa = PBXFileReference; path = PinKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -512,18 +525,14 @@
 		};
 		OBJ_339 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
 			files = (
 				OBJ_340 /* QuickObjCRuntime.framework in Frameworks */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		OBJ_347 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -553,6 +562,8 @@
 			);
 			name = Quick;
 			path = ../Quick/Sources/Quick;
+			name = Tests;
+			path = "";
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_103 /* Configuration */ = {
@@ -560,6 +571,7 @@
 			children = (
 				OBJ_104 /* Configuration.swift */,
 				OBJ_105 /* QuickConfiguration.swift */,
+				OBJ_12 /* PinKitTests.swift */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -615,8 +627,11 @@
 				"Quick::Quick::Product" /* Quick.framework */,
 				"Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */,
 				"Quick::QuickObjCRuntime::Product" /* QuickObjCRuntime.framework */,
+				PinKit::PinKit::Product /* PinKit.framework */,
+				PinKit::PinKitTests::Product /* PinKitTests.xctest */,
 			);
 			name = Products;
+			path = "";
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		OBJ_14 /* Tests */ = {
@@ -758,7 +773,9 @@
 		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
+				OBJ_13 /* gradle */,
 				OBJ_6 /* Package.swift */,
+				OBJ_14 /* Products */,
 				OBJ_7 /* Sources */,
 				OBJ_14 /* Tests */,
 				OBJ_22 /* Dependencies */,
@@ -769,6 +786,9 @@
 				OBJ_147 /* README.md */,
 			);
 			name = "";
+				OBJ_10 /* Tests */,
+			);
+			path = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -777,6 +797,7 @@
 				OBJ_8 /* PinKit */,
 			);
 			name = Sources;
+			path = "";
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_75 /* Utils */ = {
@@ -887,6 +908,7 @@
 
 /* Begin PBXNativeTarget section */
 		"Nimble::Nimble" /* Nimble */ = {
+		PinKit::PinKit /* PinKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_149 /* Build configuration list for PBXNativeTarget "Nimble" */;
 			buildPhases = (
@@ -907,6 +929,12 @@
 			productType = "com.apple.product-type.framework";
 		};
 		"Nimble::NimbleCwlCatchException" /* NimbleCwlCatchException */ = {
+			name = PinKit;
+			productName = PinKit;
+			productReference = PinKit::PinKit::Product /* PinKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		PinKit::PinKitTests /* PinKitTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_218 /* Build configuration list for PBXNativeTarget "NimbleCwlCatchException" */;
 			buildPhases = (
@@ -924,6 +952,12 @@
 			productType = "com.apple.product-type.framework";
 		};
 		"Nimble::NimbleCwlCatchExceptionSupport" /* NimbleCwlCatchExceptionSupport */ = {
+			name = PinKitTests;
+			productName = PinKitTests;
+			productReference = PinKit::PinKitTests::Product /* PinKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		PinKit::SwiftPMPackageDescription /* PinKitPackageDescription */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_226 /* Build configuration list for PBXNativeTarget "NimbleCwlCatchExceptionSupport" */;
 			buildPhases = (
@@ -1124,6 +1158,14 @@
 				"Quick::Quick" /* Quick */,
 				"Quick::QuickObjCRuntime" /* QuickObjCRuntime */,
 				"Quick::SwiftPMPackageDescription" /* QuickPackageDescription */,
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_14 /* Products */;
+			projectDirPath = .;
+			targets = (
+				PinKit::PinKit /* PinKit */,
+				PinKit::SwiftPMPackageDescription /* PinKitPackageDescription */,
+				PinKit::PinKitPackageTests::ProductTarget /* PinKitPackageTests */,
+				PinKit::PinKitTests /* PinKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1233,7 +1275,6 @@
 		};
 		OBJ_263 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
 			files = (
 				F8D095C224FC3887000899E6 /* PostsDates.swift in Sources */,
 				OBJ_264 /* Post.swift in Sources */,
@@ -1251,7 +1292,6 @@
 				F8D095BD24FC2B8D000899E6 /* PostsRecent.swift in Sources */,
 				OBJ_268 /* Service.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		OBJ_274 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -1769,6 +1809,28 @@
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
+		OBJ_28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				OBJ_29 /* Package.swift in Sources */,
+			);
+		};
+		OBJ_39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				OBJ_40 /* PinKitTests.swift in Sources */,
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = PinKit::PinKitTests /* PinKitTests */;
+		};
+		OBJ_43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = PinKit::PinKit /* PinKit */;
 		};
 		OBJ_261 /* Debug */ = {
 			isa = XCBuildConfiguration;
