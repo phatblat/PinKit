@@ -1,0 +1,64 @@
+swagger: "2.0"
+info:
+  title: Pinboard API
+  description: The Pinboard API is a way to interact programatically with your bookmarks, notes and other Pinboard data.
+  version: 1.0.0
+
+host: api.pinboard.in
+basepath: /v1
+schemes:
+  - https
+
+produces:
+  - application/json
+  - application/xml
+
+paths:
+  /posts/update:
+    get:
+      summary: Returns the most recent time a bookmark was added, updated or deleted.
+      description: >
+        Use this before calling posts/all to see if the data has changed since the last fetch.
+        [`/posts/update`](https://pinboard.in/api#posts_update)
+      parameters:
+        - name: format
+          in: query
+          type: string
+          description: the literal string 'json' or 'xml'
+      responses:
+        200:
+          description: An update timestamp.
+          schema:
+            type: object
+            properties:
+              update_time:
+                type:
+                example: 2019-02-26T12:32:37Z
+  /posts/add:
+    get:
+  /posts/delete:
+    get:
+  /posts/get:
+    get:
+  /posts/recent:
+    get:
+  /posts/dates:
+    get:
+  /posts/all:
+    get:
+  /posts/suggest:
+    get:
+  /tags/get:
+    get:
+  /tags/delete:
+    get:
+  /tags/rename:
+    get:
+  /user/secret:
+    get:
+  /user/api_token:
+    get:
+  /notes/list:
+    get:
+  /notes/{id}:
+    get:
