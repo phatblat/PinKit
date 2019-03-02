@@ -133,6 +133,13 @@
 		OBJ_325 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Package.swift */; };
 		OBJ_330 /* QuickSpecBase.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* QuickSpecBase.m */; };
 		OBJ_332 /* QuickSpecBase.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* QuickSpecBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5354A20222AE599007EAD41 /* PostsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5354A1F222AE599007EAD41 /* PostsService.swift */; };
+		B5354A22222AE630007EAD41 /* TagsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5354A21222AE630007EAD41 /* TagsService.swift */; };
+		B5354A24222AE64F007EAD41 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5354A23222AE64F007EAD41 /* UserService.swift */; };
+		B5354A26222AE666007EAD41 /* NotesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5354A25222AE666007EAD41 /* NotesService.swift */; };
+		OBJ_29 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_40 /* PinKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* PinKitTests.swift */; };
+		OBJ_42 /* PinKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PinKit::PinKit::Product" /* PinKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -376,6 +383,16 @@
 		"PinKit::PinKitTests::Product" /* PinKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = PinKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Quick::Quick::Product" /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Quick::QuickSpecBase::Product" /* QuickSpecBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuickSpecBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5354A1F222AE599007EAD41 /* PostsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsService.swift; sourceTree = "<group>"; };
+		B5354A21222AE630007EAD41 /* TagsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsService.swift; sourceTree = "<group>"; };
+		B5354A23222AE64F007EAD41 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		B5354A25222AE666007EAD41 /* NotesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesService.swift; sourceTree = "<group>"; };
+		B5858AE4221D1BC800103530 /* JSON */ = {isa = PBXFileReference; lastKnownFileType = folder; path = JSON; sourceTree = "<group>"; };
+		OBJ_12 /* PinKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinKitTests.swift; sourceTree = "<group>"; };
+		OBJ_13 /* gradle */ = {isa = PBXFileReference; lastKnownFileType = folder; path = gradle; sourceTree = SOURCE_ROOT; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		"PinKit::PinKit::Product" /* PinKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PinKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"PinKit::PinKitTests::Product" /* PinKitTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -779,6 +796,10 @@
 				OBJ_9 /* Post.swift */,
 				F81E1031245D0E3B0097CD41 /* PostsAdd.swift */,
 				F81E1041245DD1870097CD41 /* PostsDelete.swift */,
+				B5354A25222AE666007EAD41 /* NotesService.swift */,
+				B5354A1F222AE599007EAD41 /* PostsService.swift */,
+				B5354A21222AE630007EAD41 /* TagsService.swift */,
+				B5354A23222AE64F007EAD41 /* UserService.swift */,
 			);
 			name = PinKit;
 			path = Sources/PinKit;
@@ -1231,6 +1252,10 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_325 /* Package.swift in Sources */,
+				B5354A24222AE64F007EAD41 /* UserService.swift in Sources */,
+				B5354A20222AE599007EAD41 /* PostsService.swift in Sources */,
+				B5354A26222AE666007EAD41 /* NotesService.swift in Sources */,
+				B5354A22222AE630007EAD41 /* TagsService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
