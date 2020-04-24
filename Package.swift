@@ -9,13 +9,16 @@ let package = Package(
             name: "PinKit",
             targets: ["PinKit"]),
     ],
-    dependencies: [],
+    dependencies: [
+        .package(url: "https://github.com/Quick/Quick", from: "2.2.0"),
+        .package(url: "https://github.com/Quick/Nimble", from: "8.0.7"),
+    ],
     targets: [
         .target(
             name: "PinKit",
             dependencies: []),
         .testTarget(
             name: "PinKitTests",
-            dependencies: ["PinKit"]),
+            dependencies: ["PinKit", "Quick", "Nimble"]),
     ]
 )
