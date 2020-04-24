@@ -1,1 +1,17 @@
-{"date":"2019-02-18T21:24:00Z","user":"phatblat","posts":[{"href":"https:\/\/phatbl.at","description":"phatblat's reflog","extended":"","meta":"ef79fd0ef0a228c07a832caba8bd541f","hash":"3298e8c26c3d534451dea27bc4db4c32","time":"2019-02-18T21:24:00Z","shared":"yes","toread":"no","tags":""}]}	
+{
+    "date": "2019-02-18T21:24:00Z",
+    "user": "phatblat",
+    "posts": [
+        {
+            "href": "https://phatbl.at",
+            "description": "phatblat's reflog",
+            "extended": "",
+            "meta": "ef79fd0ef0a228c07a832caba8bd541f",
+            "hash": "3298e8c26c3d534451dea27bc4db4c32",
+            "time": "2019-02-18T21:24:00Z",
+            "shared": "yes",
+            "toread": "no",
+            "tags": ""
+        }
+    ]
+}
