@@ -1,14 +1,16 @@
+import Foundation
+
 /// Model for a single post.
 struct Post: Codable {
-    let description: String //": "https://unicode.org/reports/tr15/",
-    let extended    //": "",
-    let hash: String    //": "8af934acc4bdfe4e09c1796b8f9ca7c3",
-    let href: URL    //": "https://unicode.org/reports/tr15/",
-    let meta: String    //": "2faff6b208f49a6043eeb169bd1783a9",
-    let shared: Bool  //": "yes",
-    let tags: String    //": "",
-    let time: Date    //": "2020-04-24T01:54:20Z",
-    let toread: Bool  //": "yes"
+    let description: String
+    let extended: String
+    let hash: String
+    let href: URL
+    let meta: String
+    let shared: Bool
+    let tags: String
+    let time: Date
+    let toread: Bool
 }
 
 /*
