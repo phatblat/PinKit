@@ -23,10 +23,10 @@
 /* Begin PBXBuildFile section */
 		F81E1032245D0E3B0097CD41 /* PostsAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81E1031245D0E3B0097CD41 /* PostsAdd.swift */; };
 		F81E1035245D0FD50097CD41 /* PostsAddSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81E1033245D0FAF0097CD41 /* PostsAddSpec.swift */; };
-		F81E103C245D139E0097CD41 /* JSON in Resources */ = {isa = PBXBuildFile; fileRef = F81E1038245D13120097CD41 /* JSON */; };
 		F81E1040245D1BED0097CD41 /* Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81E103F245D1BED0097CD41 /* Files.swift */; };
 		F81E1042245DD1870097CD41 /* PostsDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81E1041245DD1870097CD41 /* PostsDelete.swift */; };
 		F81E1044245DD1A50097CD41 /* PostsDeleteSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81E1043245DD1A50097CD41 /* PostsDeleteSpec.swift */; };
+		F87C434F245DE02D001C0AB9 /* JSON in Resources */ = {isa = PBXBuildFile; fileRef = F87C434E245DE02D001C0AB9 /* JSON */; };
 		OBJ_141 /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* AdapterProtocols.swift */; };
 		OBJ_142 /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* AssertionDispatcher.swift */; };
 		OBJ_143 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* AssertionRecorder.swift */; };
@@ -267,10 +267,10 @@
 /* Begin PBXFileReference section */
 		F81E1031245D0E3B0097CD41 /* PostsAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsAdd.swift; sourceTree = "<group>"; };
 		F81E1033245D0FAF0097CD41 /* PostsAddSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsAddSpec.swift; sourceTree = "<group>"; };
-		F81E1038245D13120097CD41 /* JSON */ = {isa = PBXFileReference; lastKnownFileType = folder; path = JSON; sourceTree = "<group>"; };
 		F81E103F245D1BED0097CD41 /* Files.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Files.swift; sourceTree = "<group>"; };
 		F81E1041245DD1870097CD41 /* PostsDelete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsDelete.swift; sourceTree = "<group>"; };
 		F81E1043245DD1A50097CD41 /* PostsDeleteSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsDeleteSpec.swift; sourceTree = "<group>"; };
+		F87C434E245DE02D001C0AB9 /* JSON */ = {isa = PBXFileReference; lastKnownFileType = folder; path = JSON; sourceTree = "<group>"; };
 		"Nimble::Nimble::Product" /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Nimble::NimbleCwlCatchException::Product" /* NimbleCwlCatchException.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NimbleCwlCatchException.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NimbleCwlCatchExceptionSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -462,6 +462,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F87C4339245DE00A001C0AB9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F87C434E245DE02D001C0AB9 /* JSON */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -502,7 +510,6 @@
 			isa = PBXGroup;
 			children = (
 				F81E103F245D1BED0097CD41 /* Files.swift */,
-				F81E1038245D13120097CD41 /* JSON */,
 				F81E1033245D0FAF0097CD41 /* PostsAddSpec.swift */,
 				F81E1043245DD1A50097CD41 /* PostsDeleteSpec.swift */,
 				OBJ_12 /* PostSpec.swift */,
@@ -695,19 +702,19 @@
 			path = Adapters;
 			sourceTree = "<group>";
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_10 /* Tests */,
+				F87C4339245DE00A001C0AB9 /* Resources */,
 				OBJ_13 /* Dependencies */,
 				OBJ_123 /* Products */,
 				OBJ_133 /* PinKit.xcworkspace */,
 				OBJ_134 /* LICENSE.md */,
 				OBJ_135 /* README.md */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_57 /* NonObjectiveC */ = {
@@ -1024,7 +1031,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_123 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1051,7 +1058,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F81E103C245D139E0097CD41 /* JSON in Resources */,
+				F87C434F245DE02D001C0AB9 /* JSON in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

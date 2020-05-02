@@ -7,13 +7,16 @@
 
 import Foundation
 
-let testBundle = Bundle(identifier: "at.phatbl.PinKitTests")!
+/// Bundle identifier for tests. Only works when built by Xcode
+let testBundleIdentifier = "at.phatbl.PinKitTests"
+let testBundle = Bundle(for: PostSpec.self)
 
 extension Data {
     /// Unsafe initializer for loading data from string paths.
     /// - Parameter file: Relative path within the JSON folder
     init(from file: String) {
         let fileURL = Bundle.url(for: file)!
+        print("fileURL: \(fileURL)")
         try! self.init(contentsOf: fileURL, options: .mappedIfSafe)
     }
 }
