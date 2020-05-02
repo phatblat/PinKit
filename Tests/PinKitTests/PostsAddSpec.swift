@@ -35,7 +35,7 @@ extension Bundle {
     /// - Parameter fileName: Name of file to locate.
     /// - Returns: URL to file.
     static func jsonResponse(fileName: String) -> URL? {
-        return Bundle(for: PostsAddSpec.self).fileURL(fileName: fileName)
+        return Bundle(identifier: "at.phatbl.PinKitTests")!.fileURL(fileName: fileName)
     }
 
     /// Builds a URL for a file in the JSON directory of the current bundle.

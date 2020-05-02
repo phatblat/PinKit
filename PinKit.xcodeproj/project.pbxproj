@@ -366,8 +366,8 @@
 		OBJ_96 /* ThrowAssertion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrowAssertion.swift; sourceTree = "<group>"; };
 		OBJ_97 /* ThrowError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrowError.swift; sourceTree = "<group>"; };
 		OBJ_98 /* ToSucceed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToSucceed.swift; sourceTree = "<group>"; };
-		"PinKit::PinKit::Product" /* PinKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PinKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"PinKit::PinKitTests::Product" /* PinKitTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"PinKit::PinKit::Product" /* PinKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PinKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"PinKit::PinKitTests::Product" /* PinKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = PinKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Quick::Quick::Product" /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Quick::QuickSpecBase::Product" /* QuickSpecBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuickSpecBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -1710,7 +1710,7 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = PinKit;
+				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.PinKit;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -1741,7 +1741,7 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = PinKit;
+				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.PinKit;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -1811,6 +1811,7 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/PinKit.xcodeproj/GeneratedModuleMap/NimbleCwlCatchExceptionSupport/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/PinKit.xcodeproj/GeneratedModuleMap/NimbleCwlMachBadInstructionHandler/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.PinKitTests;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGET_NAME = PinKitTests;
@@ -1847,6 +1848,7 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/PinKit.xcodeproj/GeneratedModuleMap/NimbleCwlCatchExceptionSupport/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/PinKit.xcodeproj/GeneratedModuleMap/NimbleCwlMachBadInstructionHandler/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.PinKitTests;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGET_NAME = PinKitTests;
