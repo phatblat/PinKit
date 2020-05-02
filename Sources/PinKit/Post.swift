@@ -1,7 +1,7 @@
 import Foundation
 
 /// Model for a single post.
-struct Post: Codable {
+struct Post: Decodable {
     let description: String
     let extended: String
     let hash: String

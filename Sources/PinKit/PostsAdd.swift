@@ -1,7 +1,7 @@
 import Foundation
 
 /// Model for a single post.
-struct PostsAdd: Codable {
+struct PostsAdd: Decodable {
     let resultCode: String
 
 //    var keyDecodingStrategy = .convertFromSnakeCase
