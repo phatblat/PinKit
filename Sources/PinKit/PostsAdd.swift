@@ -1,14 +1,4 @@
-import Foundation
-
-/// Model for a single post.
+/// Model of the response from adding a post.
 struct PostsAdd: Decodable {
     let resultCode: String
-
-//    var keyDecodingStrategy = .convertFromSnakeCase
 }
-
-/*
-{
-    "result_code": "done"
-}
-*/
