@@ -1,6 +1,8 @@
-# This Makefile assumes that you have swiftenv installed
-# To get going, start with `make init`
-# https://akrabat.com/cross-platform-makefile-for-swift/
+#
+# Makefile
+# PinKit
+#
+# https://github.com/phatblat/Makefile-swift
 
 SHELL = /bin/sh
 
