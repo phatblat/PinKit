@@ -2,7 +2,11 @@
 # Makefile
 # PinKit
 #
-# https://github.com/phatblat/Makefile-swift
+
+################################################################################
+#
+# Variables
+#
 
 SHELL = /bin/sh
 
@@ -39,30 +43,17 @@ endif
 
 RUN_RESOURCES_DIRECTORY = ${EXECUTABLE_DIRECTORY}
 
+################################################################################
+#
+# Targets
+#
 
-build: copyRunResources
-	swift build $(SWIFTC_FLAGS) $(LINKER_FLAGS)
-
-test: build copyTestResources
-	swift test
-
-copyRunResources:
-	mkdir -p ${RUN_RESOURCES_DIRECTORY}
-	cp -r Resources/* ${RUN_RESOURCES_DIRECTORY}
-
-copyTestResources:
-	mkdir -p ${TEST_RESOURCES_DIRECTORY}
-	cp -r Resources/* ${TEST_RESOURCES_DIRECTORY}
-
-run: build
-	${EXECUTABLE_DIRECTORY}/ResourceHandlingSample
-
-clean:
-	swift package clean
-
-distclean:
-	rm -rf Packages
-	swift package clean
+.PHONY: version
+version:
+	xcodebuild -version
+	swift --version
+	swift package tools-version
+.PHONY: init
 
 init:
 	- swiftenv install $(SWIFT_VERSION)
@@ -77,5 +68,52 @@ ifeq ($(UNAME), Linux)
 	  make && make install
 endif
 
+.PHONY: xcproj
+xcproj:
+	swift package generate-xcodeproj
 
-.PHONY: build test distclean init run copyRunResources copyTestResources
+.PHONY: clean
+clean:
+	rm -rf Packages
+	xcodebuild clean
+	swift package clean
+	swift package reset
+
+.PHONY: describe
+describe:
+	swift package describe
+
+.PHONY: resolve
+resolve:
+	swift package resolve
+
+.PHONY: dependencies
+dependencies: resolve
+	swift package show-dependencies
+
+.PHONY: update
+update: resolve
+	swift package update
+
+.PHONY: build
+build: copyRunResources
+	swift build $(SWIFTC_FLAGS) $(LINKER_FLAGS)
+
+.PHONY: test
+test: build copyTestResources
+	swift test --enable-test-discovery
+
+.PHONY: copyRunResources
+copyRunResources:
+	mkdir -p ${RUN_RESOURCES_DIRECTORY}
+	cp -r Resources/* ${RUN_RESOURCES_DIRECTORY}
+
+.PHONY: copyTestResources
+copyTestResources:
+	mkdir -p ${TEST_RESOURCES_DIRECTORY}
+	cp -r Resources/* ${TEST_RESOURCES_DIRECTORY}
+
+.PHONY: run
+# make run ARGS="asdf"
+run: build
+	${EXECUTABLE_DIRECTORY}/${CMD_NAME} $(ARGS)
