@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .target(
             name: "PinKit",
-            dependencies: ["Result"]),
+            dependencies: []),
         .testTarget(
             name: "PinKitTests",
             dependencies: ["PinKit", "Quick", "Nimble"]),
