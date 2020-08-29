@@ -16,7 +16,7 @@ SHELL = /bin/sh
 # Swift 5.3
 # SWIFT_VERSION = swift-5.3-DEVELOPMENT-SNAPSHOT-2020-04-21-a
 
-SWIFT_VERSION = 5.2.4
+SWIFT_VERSION = 5.3
 
 # set EXECUTABLE_DIRECTORY according to your specific environment
 # run swift build and see where the output executable is created
