@@ -24,6 +24,8 @@
 		F8D095BB24FC27EC000899E6 /* JSON in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8D095BA24FC27E6000899E6 /* JSON */; };
 		F8D095BD24FC2B8D000899E6 /* PostsRecent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D095BC24FC2B8D000899E6 /* PostsRecent.swift */; };
 		F8D095C024FC2CDF000899E6 /* PostsRecentSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D095BE24FC2CAC000899E6 /* PostsRecentSpec.swift */; };
+		F8D095C224FC3887000899E6 /* PostsDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D095C124FC3887000899E6 /* PostsDates.swift */; };
+		F8D095C424FC3FAA000899E6 /* PostsDatesSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D095C324FC3FAA000899E6 /* PostsDatesSpec.swift */; };
 		OBJ_153 /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* AdapterProtocols.swift */; };
 		OBJ_154 /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* AssertionDispatcher.swift */; };
 		OBJ_155 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* AssertionRecorder.swift */; };
@@ -287,6 +289,8 @@
 		F8D095BA24FC27E6000899E6 /* JSON */ = {isa = PBXFileReference; lastKnownFileType = folder; name = JSON; path = Resources/JSON; sourceTree = "<group>"; };
 		F8D095BC24FC2B8D000899E6 /* PostsRecent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsRecent.swift; sourceTree = "<group>"; };
 		F8D095BE24FC2CAC000899E6 /* PostsRecentSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsRecentSpec.swift; sourceTree = "<group>"; };
+		F8D095C124FC3887000899E6 /* PostsDates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsDates.swift; sourceTree = "<group>"; };
+		F8D095C324FC3FAA000899E6 /* PostsDatesSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsDatesSpec.swift; sourceTree = "<group>"; };
 		"Nimble::Nimble::Product" /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Nimble::NimbleCwlCatchException::Product" /* NimbleCwlCatchException.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NimbleCwlCatchException.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NimbleCwlCatchExceptionSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -592,11 +596,12 @@
 		OBJ_15 /* PinKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				F8D095BA24FC27E6000899E6 /* JSON */,
 				OBJ_16 /* Files.swift */,
-				OBJ_17 /* PostSpec.swift */,
+				F8D095BA24FC27E6000899E6 /* JSON */,
 				OBJ_18 /* PostsAddSpec.swift */,
+				F8D095C324FC3FAA000899E6 /* PostsDatesSpec.swift */,
 				OBJ_19 /* PostsDeleteSpec.swift */,
+				OBJ_17 /* PostSpec.swift */,
 				F8D095BE24FC2CAC000899E6 /* PostsRecentSpec.swift */,
 				OBJ_20 /* PostsUpdateSpec.swift */,
 				OBJ_21 /* ServiceSpec.swift */,
@@ -748,6 +753,7 @@
 			children = (
 				OBJ_9 /* Post.swift */,
 				OBJ_10 /* PostsAdd.swift */,
+				F8D095C124FC3887000899E6 /* PostsDates.swift */,
 				OBJ_11 /* PostsDelete.swift */,
 				F8D095BC24FC2B8D000899E6 /* PostsRecent.swift */,
 				OBJ_12 /* PostsUpdate.swift */,
@@ -1178,6 +1184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				F8D095C224FC3887000899E6 /* PostsDates.swift in Sources */,
 				OBJ_264 /* Post.swift in Sources */,
 				OBJ_265 /* PostsAdd.swift in Sources */,
 				OBJ_266 /* PostsDelete.swift in Sources */,
@@ -1203,6 +1210,7 @@
 				OBJ_287 /* PostSpec.swift in Sources */,
 				OBJ_288 /* PostsAddSpec.swift in Sources */,
 				OBJ_289 /* PostsDeleteSpec.swift in Sources */,
+				F8D095C424FC3FAA000899E6 /* PostsDatesSpec.swift in Sources */,
 				OBJ_290 /* PostsUpdateSpec.swift in Sources */,
 				OBJ_291 /* ServiceSpec.swift in Sources */,
 				F8D095C024FC2CDF000899E6 /* PostsRecentSpec.swift in Sources */,

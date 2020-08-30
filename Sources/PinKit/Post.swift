@@ -11,7 +11,7 @@ struct Post: Decodable {
     let tags: String
     let time: Date
     let toread: Bool
-    
+
     enum CodingKeys: String, CodingKey {
         case description
         case extended
@@ -27,7 +27,7 @@ struct Post: Decodable {
 
 extension Post {
     // MARK: Decoder (custom)
-      
+
     public init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
 
