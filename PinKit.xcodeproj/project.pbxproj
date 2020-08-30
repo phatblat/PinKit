@@ -9,11 +9,11 @@
 /* Begin PBXAggregateTarget section */
 		"PinKit::PinKitPackageTests::ProductTarget" /* PinKitPackageTests */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_278 /* Build configuration list for PBXAggregateTarget "PinKitPackageTests" */;
+			buildConfigurationList = OBJ_277 /* Build configuration list for PBXAggregateTarget "PinKitPackageTests" */;
 			buildPhases = (
 			);
 			dependencies = (
-				OBJ_281 /* PBXTargetDependency */,
+				OBJ_280 /* PBXTargetDependency */,
 			);
 			name = PinKitPackageTests;
 			productName = PinKitPackageTests;
@@ -21,246 +21,246 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		F8D094D224FB59B1000899E6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D094D124FB59B1000899E6 /* XCTest.framework */; };
-		F8D094D324FB59B1000899E6 /* XCTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8D094D124FB59B1000899E6 /* XCTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		OBJ_154 /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* AdapterProtocols.swift */; };
-		OBJ_155 /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* AssertionDispatcher.swift */; };
-		OBJ_156 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* AssertionRecorder.swift */; };
-		OBJ_157 /* NMBExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* NMBExpectation.swift */; };
-		OBJ_158 /* NMBObjCMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* NMBObjCMatcher.swift */; };
-		OBJ_159 /* NimbleEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* NimbleEnvironment.swift */; };
-		OBJ_160 /* NimbleXCTestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* NimbleXCTestHandler.swift */; };
-		OBJ_161 /* ExceptionCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* ExceptionCapture.swift */; };
-		OBJ_162 /* DSL+Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* DSL+Wait.swift */; };
-		OBJ_163 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* DSL.swift */; };
-		OBJ_164 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* Expectation.swift */; };
-		OBJ_165 /* ExpectationMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* ExpectationMessage.swift */; };
-		OBJ_166 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* Expression.swift */; };
-		OBJ_167 /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* FailureMessage.swift */; };
-		OBJ_168 /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* AllPass.swift */; };
-		OBJ_169 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Async.swift */; };
-		OBJ_170 /* BeAKindOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* BeAKindOf.swift */; };
-		OBJ_171 /* BeAnInstanceOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* BeAnInstanceOf.swift */; };
-		OBJ_172 /* BeCloseTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* BeCloseTo.swift */; };
-		OBJ_173 /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* BeEmpty.swift */; };
-		OBJ_174 /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* BeGreaterThan.swift */; };
-		OBJ_175 /* BeGreaterThanOrEqualTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* BeGreaterThanOrEqualTo.swift */; };
-		OBJ_176 /* BeIdenticalTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* BeIdenticalTo.swift */; };
-		OBJ_177 /* BeLessThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* BeLessThan.swift */; };
-		OBJ_178 /* BeLessThanOrEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* BeLessThanOrEqual.swift */; };
-		OBJ_179 /* BeLogical.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* BeLogical.swift */; };
-		OBJ_180 /* BeNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* BeNil.swift */; };
-		OBJ_181 /* BeVoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* BeVoid.swift */; };
-		OBJ_182 /* BeginWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* BeginWith.swift */; };
-		OBJ_183 /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* Contain.swift */; };
-		OBJ_184 /* ContainElementSatisfying.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* ContainElementSatisfying.swift */; };
-		OBJ_185 /* ElementsEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* ElementsEqual.swift */; };
-		OBJ_186 /* EndWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* EndWith.swift */; };
-		OBJ_187 /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* Equal.swift */; };
-		OBJ_188 /* HaveCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* HaveCount.swift */; };
-		OBJ_189 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* Match.swift */; };
-		OBJ_190 /* MatchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* MatchError.swift */; };
-		OBJ_191 /* MatcherFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* MatcherFunc.swift */; };
-		OBJ_192 /* MatcherProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* MatcherProtocols.swift */; };
-		OBJ_193 /* PostNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* PostNotification.swift */; };
-		OBJ_194 /* Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* Predicate.swift */; };
-		OBJ_195 /* RaisesException.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* RaisesException.swift */; };
-		OBJ_196 /* SatisfyAllOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* SatisfyAllOf.swift */; };
-		OBJ_197 /* SatisfyAnyOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* SatisfyAnyOf.swift */; };
-		OBJ_198 /* ThrowAssertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* ThrowAssertion.swift */; };
-		OBJ_199 /* ThrowError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* ThrowError.swift */; };
-		OBJ_200 /* ToSucceed.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* ToSucceed.swift */; };
-		OBJ_201 /* Await.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_76 /* Await.swift */; };
-		OBJ_202 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_77 /* Errors.swift */; };
-		OBJ_203 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_78 /* Functional.swift */; };
-		OBJ_204 /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_79 /* SourceLocation.swift */; };
-		OBJ_205 /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_80 /* Stringers.swift */; };
-		OBJ_207 /* NimbleCwlPreconditionTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlPreconditionTesting::Product" /* NimbleCwlPreconditionTesting.framework */; };
-		OBJ_208 /* NimbleCwlCatchException.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlCatchException::Product" /* NimbleCwlCatchException.framework */; };
-		OBJ_209 /* NimbleCwlCatchExceptionSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */; };
-		OBJ_210 /* NimbleCwlMachBadInstructionHandler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlMachBadInstructionHandler::Product" /* NimbleCwlMachBadInstructionHandler.framework */; };
-		OBJ_223 /* CwlCatchException.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_82 /* CwlCatchException.swift */; };
-		OBJ_225 /* NimbleCwlCatchExceptionSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */; };
-		OBJ_231 /* CwlCatchException.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_84 /* CwlCatchException.m */; };
-		OBJ_237 /* CwlMachBadInstructionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_89 /* CwlMachBadInstructionHandler.m */; };
-		OBJ_238 /* mach_excServer.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_90 /* mach_excServer.c */; };
-		OBJ_244 /* CwlBadInstructionException.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_95 /* CwlBadInstructionException.swift */; };
-		OBJ_245 /* CwlCatchBadInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_96 /* CwlCatchBadInstruction.swift */; };
-		OBJ_246 /* CwlDarwinDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_97 /* CwlDarwinDefinitions.swift */; };
-		OBJ_248 /* NimbleCwlCatchException.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlCatchException::Product" /* NimbleCwlCatchException.framework */; };
-		OBJ_249 /* NimbleCwlCatchExceptionSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */; };
-		OBJ_250 /* NimbleCwlMachBadInstructionHandler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlMachBadInstructionHandler::Product" /* NimbleCwlMachBadInstructionHandler.framework */; };
-		OBJ_259 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_98 /* Package.swift */; };
-		OBJ_265 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Post.swift */; };
-		OBJ_266 /* PostsAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* PostsAdd.swift */; };
-		OBJ_267 /* PostsDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* PostsDelete.swift */; };
-		OBJ_268 /* PostsUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* PostsUpdate.swift */; };
-		OBJ_269 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Service.swift */; };
-		OBJ_276 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_287 /* Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Files.swift */; };
-		OBJ_288 /* PostSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* PostSpec.swift */; };
-		OBJ_289 /* PostsAddSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* PostsAddSpec.swift */; };
-		OBJ_290 /* PostsDeleteSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* PostsDeleteSpec.swift */; };
-		OBJ_291 /* PostsUpdateSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* PostsUpdateSpec.swift */; };
-		OBJ_292 /* ServiceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* ServiceSpec.swift */; };
-		OBJ_294 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::Nimble::Product" /* Nimble.framework */; };
-		OBJ_295 /* NimbleCwlPreconditionTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlPreconditionTesting::Product" /* NimbleCwlPreconditionTesting.framework */; };
-		OBJ_296 /* NimbleCwlCatchException.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlCatchException::Product" /* NimbleCwlCatchException.framework */; };
-		OBJ_297 /* NimbleCwlCatchExceptionSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */; };
-		OBJ_298 /* NimbleCwlMachBadInstructionHandler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlMachBadInstructionHandler::Product" /* NimbleCwlMachBadInstructionHandler.framework */; };
-		OBJ_299 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Quick::Quick::Product" /* Quick.framework */; };
-		OBJ_300 /* QuickObjCRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Quick::QuickObjCRuntime::Product" /* QuickObjCRuntime.framework */; };
-		OBJ_301 /* PinKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PinKit::PinKit::Product" /* PinKit.framework */; };
-		OBJ_316 /* Behavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_101 /* Behavior.swift */; };
-		OBJ_317 /* Callsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_102 /* Callsite.swift */; };
-		OBJ_318 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_104 /* Configuration.swift */; };
-		OBJ_319 /* QuickConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_105 /* QuickConfiguration.swift */; };
-		OBJ_320 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_107 /* DSL.swift */; };
-		OBJ_321 /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_108 /* World+DSL.swift */; };
-		OBJ_322 /* ErrorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_109 /* ErrorUtility.swift */; };
-		OBJ_323 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_110 /* Example.swift */; };
-		OBJ_324 /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_111 /* ExampleGroup.swift */; };
-		OBJ_325 /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_112 /* ExampleMetadata.swift */; };
-		OBJ_326 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_113 /* Filter.swift */; };
-		OBJ_327 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_115 /* Closures.swift */; };
-		OBJ_328 /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_116 /* ExampleHooks.swift */; };
-		OBJ_329 /* HooksPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_117 /* HooksPhase.swift */; };
-		OBJ_330 /* SuiteHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_118 /* SuiteHooks.swift */; };
-		OBJ_331 /* NSBundle+CurrentTestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_119 /* NSBundle+CurrentTestBundle.swift */; };
-		OBJ_332 /* QuickMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_120 /* QuickMain.swift */; };
-		OBJ_333 /* QuickSelectedTestSuiteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_121 /* QuickSelectedTestSuiteBuilder.swift */; };
-		OBJ_334 /* QuickSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_122 /* QuickSpec.swift */; };
-		OBJ_335 /* QuickTestObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_123 /* QuickTestObservation.swift */; };
-		OBJ_336 /* QuickTestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_124 /* QuickTestSuite.swift */; };
-		OBJ_337 /* String+C99ExtendedIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_125 /* String+C99ExtendedIdentifier.swift */; };
-		OBJ_338 /* URL+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_126 /* URL+FileName.swift */; };
-		OBJ_339 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_127 /* World.swift */; };
-		OBJ_341 /* QuickObjCRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Quick::QuickObjCRuntime::Product" /* QuickObjCRuntime.framework */; };
-		OBJ_347 /* QuickSpecBase.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_129 /* QuickSpecBase.m */; };
-		OBJ_354 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_133 /* Package.swift */; };
+		F8D0950024FB5DDF000899E6 /* JSON in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8D094FF24FB5DD8000899E6 /* JSON */; };
+		F8D0950424FB5E21000899E6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D0950224FB5DF3000899E6 /* XCTest.framework */; };
+		OBJ_153 /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* AdapterProtocols.swift */; };
+		OBJ_154 /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* AssertionDispatcher.swift */; };
+		OBJ_155 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* AssertionRecorder.swift */; };
+		OBJ_156 /* NMBExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* NMBExpectation.swift */; };
+		OBJ_157 /* NMBObjCMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* NMBObjCMatcher.swift */; };
+		OBJ_158 /* NimbleEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* NimbleEnvironment.swift */; };
+		OBJ_159 /* NimbleXCTestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* NimbleXCTestHandler.swift */; };
+		OBJ_160 /* ExceptionCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* ExceptionCapture.swift */; };
+		OBJ_161 /* DSL+Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* DSL+Wait.swift */; };
+		OBJ_162 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* DSL.swift */; };
+		OBJ_163 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* Expectation.swift */; };
+		OBJ_164 /* ExpectationMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* ExpectationMessage.swift */; };
+		OBJ_165 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* Expression.swift */; };
+		OBJ_166 /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* FailureMessage.swift */; };
+		OBJ_167 /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* AllPass.swift */; };
+		OBJ_168 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Async.swift */; };
+		OBJ_169 /* BeAKindOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* BeAKindOf.swift */; };
+		OBJ_170 /* BeAnInstanceOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* BeAnInstanceOf.swift */; };
+		OBJ_171 /* BeCloseTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* BeCloseTo.swift */; };
+		OBJ_172 /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* BeEmpty.swift */; };
+		OBJ_173 /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* BeGreaterThan.swift */; };
+		OBJ_174 /* BeGreaterThanOrEqualTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* BeGreaterThanOrEqualTo.swift */; };
+		OBJ_175 /* BeIdenticalTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* BeIdenticalTo.swift */; };
+		OBJ_176 /* BeLessThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* BeLessThan.swift */; };
+		OBJ_177 /* BeLessThanOrEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* BeLessThanOrEqual.swift */; };
+		OBJ_178 /* BeLogical.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* BeLogical.swift */; };
+		OBJ_179 /* BeNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* BeNil.swift */; };
+		OBJ_180 /* BeVoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* BeVoid.swift */; };
+		OBJ_181 /* BeginWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* BeginWith.swift */; };
+		OBJ_182 /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* Contain.swift */; };
+		OBJ_183 /* ContainElementSatisfying.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* ContainElementSatisfying.swift */; };
+		OBJ_184 /* ElementsEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* ElementsEqual.swift */; };
+		OBJ_185 /* EndWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* EndWith.swift */; };
+		OBJ_186 /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* Equal.swift */; };
+		OBJ_187 /* HaveCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* HaveCount.swift */; };
+		OBJ_188 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* Match.swift */; };
+		OBJ_189 /* MatchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* MatchError.swift */; };
+		OBJ_190 /* MatcherFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* MatcherFunc.swift */; };
+		OBJ_191 /* MatcherProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* MatcherProtocols.swift */; };
+		OBJ_192 /* PostNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* PostNotification.swift */; };
+		OBJ_193 /* Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* Predicate.swift */; };
+		OBJ_194 /* RaisesException.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* RaisesException.swift */; };
+		OBJ_195 /* SatisfyAllOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* SatisfyAllOf.swift */; };
+		OBJ_196 /* SatisfyAnyOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* SatisfyAnyOf.swift */; };
+		OBJ_197 /* ThrowAssertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* ThrowAssertion.swift */; };
+		OBJ_198 /* ThrowError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* ThrowError.swift */; };
+		OBJ_199 /* ToSucceed.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* ToSucceed.swift */; };
+		OBJ_200 /* Await.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_76 /* Await.swift */; };
+		OBJ_201 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_77 /* Errors.swift */; };
+		OBJ_202 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_78 /* Functional.swift */; };
+		OBJ_203 /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_79 /* SourceLocation.swift */; };
+		OBJ_204 /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_80 /* Stringers.swift */; };
+		OBJ_206 /* NimbleCwlPreconditionTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlPreconditionTesting::Product" /* NimbleCwlPreconditionTesting.framework */; };
+		OBJ_207 /* NimbleCwlCatchException.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlCatchException::Product" /* NimbleCwlCatchException.framework */; };
+		OBJ_208 /* NimbleCwlCatchExceptionSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */; };
+		OBJ_209 /* NimbleCwlMachBadInstructionHandler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlMachBadInstructionHandler::Product" /* NimbleCwlMachBadInstructionHandler.framework */; };
+		OBJ_222 /* CwlCatchException.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_82 /* CwlCatchException.swift */; };
+		OBJ_224 /* NimbleCwlCatchExceptionSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */; };
+		OBJ_230 /* CwlCatchException.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_84 /* CwlCatchException.m */; };
+		OBJ_236 /* CwlMachBadInstructionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_89 /* CwlMachBadInstructionHandler.m */; };
+		OBJ_237 /* mach_excServer.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_90 /* mach_excServer.c */; };
+		OBJ_243 /* CwlBadInstructionException.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_95 /* CwlBadInstructionException.swift */; };
+		OBJ_244 /* CwlCatchBadInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_96 /* CwlCatchBadInstruction.swift */; };
+		OBJ_245 /* CwlDarwinDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_97 /* CwlDarwinDefinitions.swift */; };
+		OBJ_247 /* NimbleCwlCatchException.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlCatchException::Product" /* NimbleCwlCatchException.framework */; };
+		OBJ_248 /* NimbleCwlCatchExceptionSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */; };
+		OBJ_249 /* NimbleCwlMachBadInstructionHandler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlMachBadInstructionHandler::Product" /* NimbleCwlMachBadInstructionHandler.framework */; };
+		OBJ_258 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_98 /* Package.swift */; };
+		OBJ_264 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Post.swift */; };
+		OBJ_265 /* PostsAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* PostsAdd.swift */; };
+		OBJ_266 /* PostsDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* PostsDelete.swift */; };
+		OBJ_267 /* PostsUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* PostsUpdate.swift */; };
+		OBJ_268 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Service.swift */; };
+		OBJ_275 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_286 /* Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Files.swift */; };
+		OBJ_287 /* PostSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* PostSpec.swift */; };
+		OBJ_288 /* PostsAddSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* PostsAddSpec.swift */; };
+		OBJ_289 /* PostsDeleteSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* PostsDeleteSpec.swift */; };
+		OBJ_290 /* PostsUpdateSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* PostsUpdateSpec.swift */; };
+		OBJ_291 /* ServiceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* ServiceSpec.swift */; };
+		OBJ_293 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::Nimble::Product" /* Nimble.framework */; };
+		OBJ_294 /* NimbleCwlPreconditionTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlPreconditionTesting::Product" /* NimbleCwlPreconditionTesting.framework */; };
+		OBJ_295 /* NimbleCwlCatchException.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlCatchException::Product" /* NimbleCwlCatchException.framework */; };
+		OBJ_296 /* NimbleCwlCatchExceptionSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */; };
+		OBJ_297 /* NimbleCwlMachBadInstructionHandler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nimble::NimbleCwlMachBadInstructionHandler::Product" /* NimbleCwlMachBadInstructionHandler.framework */; };
+		OBJ_298 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Quick::Quick::Product" /* Quick.framework */; };
+		OBJ_299 /* QuickObjCRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Quick::QuickObjCRuntime::Product" /* QuickObjCRuntime.framework */; };
+		OBJ_300 /* PinKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PinKit::PinKit::Product" /* PinKit.framework */; };
+		OBJ_315 /* Behavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_101 /* Behavior.swift */; };
+		OBJ_316 /* Callsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_102 /* Callsite.swift */; };
+		OBJ_317 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_104 /* Configuration.swift */; };
+		OBJ_318 /* QuickConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_105 /* QuickConfiguration.swift */; };
+		OBJ_319 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_107 /* DSL.swift */; };
+		OBJ_320 /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_108 /* World+DSL.swift */; };
+		OBJ_321 /* ErrorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_109 /* ErrorUtility.swift */; };
+		OBJ_322 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_110 /* Example.swift */; };
+		OBJ_323 /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_111 /* ExampleGroup.swift */; };
+		OBJ_324 /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_112 /* ExampleMetadata.swift */; };
+		OBJ_325 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_113 /* Filter.swift */; };
+		OBJ_326 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_115 /* Closures.swift */; };
+		OBJ_327 /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_116 /* ExampleHooks.swift */; };
+		OBJ_328 /* HooksPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_117 /* HooksPhase.swift */; };
+		OBJ_329 /* SuiteHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_118 /* SuiteHooks.swift */; };
+		OBJ_330 /* NSBundle+CurrentTestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_119 /* NSBundle+CurrentTestBundle.swift */; };
+		OBJ_331 /* QuickMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_120 /* QuickMain.swift */; };
+		OBJ_332 /* QuickSelectedTestSuiteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_121 /* QuickSelectedTestSuiteBuilder.swift */; };
+		OBJ_333 /* QuickSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_122 /* QuickSpec.swift */; };
+		OBJ_334 /* QuickTestObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_123 /* QuickTestObservation.swift */; };
+		OBJ_335 /* QuickTestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_124 /* QuickTestSuite.swift */; };
+		OBJ_336 /* String+C99ExtendedIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_125 /* String+C99ExtendedIdentifier.swift */; };
+		OBJ_337 /* URL+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_126 /* URL+FileName.swift */; };
+		OBJ_338 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_127 /* World.swift */; };
+		OBJ_340 /* QuickObjCRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Quick::QuickObjCRuntime::Product" /* QuickObjCRuntime.framework */; };
+		OBJ_346 /* QuickSpecBase.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_129 /* QuickSpecBase.m */; };
+		OBJ_353 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_133 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F8D094BE24FB1A4E000899E6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Quick::QuickObjCRuntime";
-			remoteInfo = QuickObjCRuntime;
-		};
-		F8D094BF24FB1A4E000899E6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Nimble::NimbleCwlCatchExceptionSupport";
-			remoteInfo = NimbleCwlCatchExceptionSupport;
-		};
-		F8D094C024FB1A4E000899E6 /* PBXContainerItemProxy */ = {
+		F8D094EC24FB5DB0000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Nimble::NimbleCwlCatchException";
 			remoteInfo = NimbleCwlCatchException;
 		};
-		F8D094C124FB1A4E000899E6 /* PBXContainerItemProxy */ = {
+		F8D094ED24FB5DB0000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Nimble::NimbleCwlCatchExceptionSupport";
 			remoteInfo = NimbleCwlCatchExceptionSupport;
 		};
-		F8D094C224FB1A4E000899E6 /* PBXContainerItemProxy */ = {
+		F8D094EE24FB5DB0000899E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Nimble::NimbleCwlCatchExceptionSupport";
+			remoteInfo = NimbleCwlCatchExceptionSupport;
+		};
+		F8D094EF24FB5DB0000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Nimble::NimbleCwlMachBadInstructionHandler";
 			remoteInfo = NimbleCwlMachBadInstructionHandler;
 		};
-		F8D094C324FB1A4E000899E6 /* PBXContainerItemProxy */ = {
+		F8D094F024FB5DB0000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Nimble::NimbleCwlPreconditionTesting";
 			remoteInfo = NimbleCwlPreconditionTesting;
 		};
-		F8D094C424FB1A4E000899E6 /* PBXContainerItemProxy */ = {
+		F8D094F124FB5DB0000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Nimble::NimbleCwlCatchException";
 			remoteInfo = NimbleCwlCatchException;
 		};
-		F8D094C524FB1A4E000899E6 /* PBXContainerItemProxy */ = {
+		F8D094F224FB5DB0000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Nimble::NimbleCwlCatchExceptionSupport";
 			remoteInfo = NimbleCwlCatchExceptionSupport;
 		};
-		F8D094C624FB1A4E000899E6 /* PBXContainerItemProxy */ = {
+		F8D094F324FB5DB0000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Nimble::NimbleCwlMachBadInstructionHandler";
 			remoteInfo = NimbleCwlMachBadInstructionHandler;
 		};
-		F8D094C724FB1A4E000899E6 /* PBXContainerItemProxy */ = {
+		F8D094F424FB5DB0000899E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Quick::QuickObjCRuntime";
+			remoteInfo = QuickObjCRuntime;
+		};
+		F8D094F524FB5DB0000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Nimble::Nimble";
 			remoteInfo = Nimble;
 		};
-		F8D094C824FB1A4E000899E6 /* PBXContainerItemProxy */ = {
+		F8D094F624FB5DB0000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Nimble::NimbleCwlPreconditionTesting";
 			remoteInfo = NimbleCwlPreconditionTesting;
 		};
-		F8D094C924FB1A4E000899E6 /* PBXContainerItemProxy */ = {
+		F8D094F724FB5DB0000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Nimble::NimbleCwlCatchException";
 			remoteInfo = NimbleCwlCatchException;
 		};
-		F8D094CA24FB1A4E000899E6 /* PBXContainerItemProxy */ = {
+		F8D094F824FB5DB0000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Nimble::NimbleCwlCatchExceptionSupport";
 			remoteInfo = NimbleCwlCatchExceptionSupport;
 		};
-		F8D094CB24FB1A4E000899E6 /* PBXContainerItemProxy */ = {
+		F8D094F924FB5DB0000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Nimble::NimbleCwlMachBadInstructionHandler";
 			remoteInfo = NimbleCwlMachBadInstructionHandler;
 		};
-		F8D094CC24FB1A4E000899E6 /* PBXContainerItemProxy */ = {
+		F8D094FA24FB5DB0000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Quick::Quick";
 			remoteInfo = Quick;
 		};
-		F8D094CD24FB1A4E000899E6 /* PBXContainerItemProxy */ = {
+		F8D094FB24FB5DB0000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Quick::QuickObjCRuntime";
 			remoteInfo = QuickObjCRuntime;
 		};
-		F8D094CE24FB1A4E000899E6 /* PBXContainerItemProxy */ = {
+		F8D094FC24FB5DB0000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PinKit::PinKit";
 			remoteInfo = PinKit;
 		};
-		F8D094CF24FB1A4E000899E6 /* PBXContainerItemProxy */ = {
+		F8D094FD24FB5DB0000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -270,21 +270,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F8D094D424FB59B1000899E6 /* Embed Frameworks */ = {
+		F8D094FE24FB5DBA000899E6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 10;
+			dstSubfolderSpec = 7;
 			files = (
-				F8D094D324FB59B1000899E6 /* XCTest.framework in Embed Frameworks */,
+				F8D0950024FB5DDF000899E6 /* JSON in CopyFiles */,
 			);
-			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F8D094D124FB59B1000899E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F8D094FF24FB5DD8000899E6 /* JSON */ = {isa = PBXFileReference; lastKnownFileType = folder; name = JSON; path = Resources/JSON; sourceTree = "<group>"; };
+		F8D0950224FB5DF3000899E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		"Nimble::Nimble::Product" /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Nimble::NimbleCwlCatchException::Product" /* NimbleCwlCatchException.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NimbleCwlCatchException.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NimbleCwlCatchExceptionSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -323,10 +323,9 @@
 		OBJ_132 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = /Volumes/Catalina/Users/phatblat/dev/swift/PinKit/PinKit.xcodeproj/GeneratedModuleMap/QuickObjCRuntime/module.modulemap; sourceTree = "<group>"; };
 		OBJ_133 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = /Volumes/Catalina/Users/phatblat/dev/swift/PinKit/.build/checkouts/Quick/Package.swift; sourceTree = "<group>"; };
 		OBJ_144 /* PinKit.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = PinKit.xcworkspace; sourceTree = SOURCE_ROOT; };
-		OBJ_145 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = SOURCE_ROOT; };
-		OBJ_146 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
-		OBJ_147 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		OBJ_148 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_145 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		OBJ_146 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		OBJ_147 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_16 /* Files.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Files.swift; sourceTree = "<group>"; };
 		OBJ_17 /* PostSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostSpec.swift; sourceTree = "<group>"; };
 		OBJ_18 /* PostsAddSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsAddSpec.swift; sourceTree = "<group>"; };
@@ -402,98 +401,98 @@
 		"PinKit::PinKit::Product" /* PinKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PinKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"PinKit::PinKitTests::Product" /* PinKitTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = PinKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Quick::Quick::Product" /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Quick::QuickObjCRuntime::Product" /* QuickObjCRuntime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = QuickObjCRuntime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Quick::QuickObjCRuntime::Product" /* QuickObjCRuntime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuickObjCRuntime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_206 /* Frameworks */ = {
+		OBJ_205 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_207 /* NimbleCwlPreconditionTesting.framework in Frameworks */,
-				OBJ_208 /* NimbleCwlCatchException.framework in Frameworks */,
-				OBJ_209 /* NimbleCwlCatchExceptionSupport.framework in Frameworks */,
-				OBJ_210 /* NimbleCwlMachBadInstructionHandler.framework in Frameworks */,
+				OBJ_206 /* NimbleCwlPreconditionTesting.framework in Frameworks */,
+				OBJ_207 /* NimbleCwlCatchException.framework in Frameworks */,
+				OBJ_208 /* NimbleCwlCatchExceptionSupport.framework in Frameworks */,
+				OBJ_209 /* NimbleCwlMachBadInstructionHandler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_224 /* Frameworks */ = {
+		OBJ_223 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_225 /* NimbleCwlCatchExceptionSupport.framework in Frameworks */,
+				OBJ_224 /* NimbleCwlCatchExceptionSupport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_232 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_239 /* Frameworks */ = {
+		OBJ_231 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_247 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_248 /* NimbleCwlCatchException.framework in Frameworks */,
-				OBJ_249 /* NimbleCwlCatchExceptionSupport.framework in Frameworks */,
-				OBJ_250 /* NimbleCwlMachBadInstructionHandler.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_270 /* Frameworks */ = {
+		OBJ_238 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_293 /* Frameworks */ = {
+		OBJ_246 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_294 /* Nimble.framework in Frameworks */,
-				OBJ_295 /* NimbleCwlPreconditionTesting.framework in Frameworks */,
-				OBJ_296 /* NimbleCwlCatchException.framework in Frameworks */,
-				OBJ_297 /* NimbleCwlCatchExceptionSupport.framework in Frameworks */,
-				OBJ_298 /* NimbleCwlMachBadInstructionHandler.framework in Frameworks */,
-				OBJ_299 /* Quick.framework in Frameworks */,
-				OBJ_300 /* QuickObjCRuntime.framework in Frameworks */,
-				OBJ_301 /* PinKit.framework in Frameworks */,
+				OBJ_247 /* NimbleCwlCatchException.framework in Frameworks */,
+				OBJ_248 /* NimbleCwlCatchExceptionSupport.framework in Frameworks */,
+				OBJ_249 /* NimbleCwlMachBadInstructionHandler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_340 /* Frameworks */ = {
+		OBJ_269 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_341 /* QuickObjCRuntime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_348 /* Frameworks */ = {
+		OBJ_292 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				F8D094D224FB59B1000899E6 /* XCTest.framework in Frameworks */,
+				OBJ_293 /* Nimble.framework in Frameworks */,
+				OBJ_294 /* NimbleCwlPreconditionTesting.framework in Frameworks */,
+				OBJ_295 /* NimbleCwlCatchException.framework in Frameworks */,
+				OBJ_296 /* NimbleCwlCatchExceptionSupport.framework in Frameworks */,
+				OBJ_297 /* NimbleCwlMachBadInstructionHandler.framework in Frameworks */,
+				OBJ_298 /* Quick.framework in Frameworks */,
+				OBJ_299 /* QuickObjCRuntime.framework in Frameworks */,
+				OBJ_300 /* PinKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_340 /* QuickObjCRuntime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				F8D0950424FB5E21000899E6 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F8D094D024FB59B1000899E6 /* Frameworks */ = {
+		F8D0950124FB5DF3000899E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F8D094D124FB59B1000899E6 /* XCTest.framework */,
+				F8D0950224FB5DF3000899E6 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -576,15 +575,15 @@
 		OBJ_134 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				"Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */,
-				"Quick::Quick::Product" /* Quick.framework */,
-				"Nimble::NimbleCwlPreconditionTesting::Product" /* NimbleCwlPreconditionTesting.framework */,
-				"Nimble::NimbleCwlMachBadInstructionHandler::Product" /* NimbleCwlMachBadInstructionHandler.framework */,
-				"Nimble::NimbleCwlCatchException::Product" /* NimbleCwlCatchException.framework */,
-				"PinKit::PinKitTests::Product" /* PinKitTests.xctest */,
 				"Quick::QuickObjCRuntime::Product" /* QuickObjCRuntime.framework */,
 				"Nimble::Nimble::Product" /* Nimble.framework */,
 				"PinKit::PinKit::Product" /* PinKit.framework */,
+				"PinKit::PinKitTests::Product" /* PinKitTests.xctest */,
+				"Nimble::NimbleCwlMachBadInstructionHandler::Product" /* NimbleCwlMachBadInstructionHandler.framework */,
+				"Quick::Quick::Product" /* Quick.framework */,
+				"Nimble::NimbleCwlCatchException::Product" /* NimbleCwlCatchException.framework */,
+				"Nimble::NimbleCwlPreconditionTesting::Product" /* NimbleCwlPreconditionTesting.framework */,
+				"Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -600,6 +599,7 @@
 		OBJ_15 /* PinKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				F8D094FF24FB5DD8000899E6 /* JSON */,
 				OBJ_16 /* Files.swift */,
 				OBJ_17 /* PostSpec.swift */,
 				OBJ_18 /* PostsAddSpec.swift */,
@@ -722,11 +722,10 @@
 				OBJ_22 /* Dependencies */,
 				OBJ_134 /* Products */,
 				OBJ_144 /* PinKit.xcworkspace */,
-				OBJ_145 /* Resources */,
-				OBJ_146 /* LICENSE.md */,
-				OBJ_147 /* Makefile */,
-				OBJ_148 /* README.md */,
-				F8D094D024FB59B1000899E6 /* Frameworks */,
+				OBJ_145 /* LICENSE.md */,
+				OBJ_146 /* Makefile */,
+				OBJ_147 /* README.md */,
+				F8D0950124FB5DF3000899E6 /* Frameworks */,
 			);
 			name = "";
 			sourceTree = "<group>";
@@ -838,18 +837,18 @@
 /* Begin PBXNativeTarget section */
 		"Nimble::Nimble" /* Nimble */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_150 /* Build configuration list for PBXNativeTarget "Nimble" */;
+			buildConfigurationList = OBJ_149 /* Build configuration list for PBXNativeTarget "Nimble" */;
 			buildPhases = (
-				OBJ_153 /* Sources */,
-				OBJ_206 /* Frameworks */,
+				OBJ_152 /* Sources */,
+				OBJ_205 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_211 /* PBXTargetDependency */,
-				OBJ_213 /* PBXTargetDependency */,
-				OBJ_215 /* PBXTargetDependency */,
-				OBJ_217 /* PBXTargetDependency */,
+				OBJ_210 /* PBXTargetDependency */,
+				OBJ_212 /* PBXTargetDependency */,
+				OBJ_214 /* PBXTargetDependency */,
+				OBJ_216 /* PBXTargetDependency */,
 			);
 			name = Nimble;
 			productName = Nimble;
@@ -858,15 +857,15 @@
 		};
 		"Nimble::NimbleCwlCatchException" /* NimbleCwlCatchException */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_219 /* Build configuration list for PBXNativeTarget "NimbleCwlCatchException" */;
+			buildConfigurationList = OBJ_218 /* Build configuration list for PBXNativeTarget "NimbleCwlCatchException" */;
 			buildPhases = (
-				OBJ_222 /* Sources */,
-				OBJ_224 /* Frameworks */,
+				OBJ_221 /* Sources */,
+				OBJ_223 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_226 /* PBXTargetDependency */,
+				OBJ_225 /* PBXTargetDependency */,
 			);
 			name = NimbleCwlCatchException;
 			productName = NimbleCwlCatchException;
@@ -875,10 +874,10 @@
 		};
 		"Nimble::NimbleCwlCatchExceptionSupport" /* NimbleCwlCatchExceptionSupport */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_227 /* Build configuration list for PBXNativeTarget "NimbleCwlCatchExceptionSupport" */;
+			buildConfigurationList = OBJ_226 /* Build configuration list for PBXNativeTarget "NimbleCwlCatchExceptionSupport" */;
 			buildPhases = (
-				OBJ_230 /* Sources */,
-				OBJ_232 /* Frameworks */,
+				OBJ_229 /* Sources */,
+				OBJ_231 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -891,10 +890,10 @@
 		};
 		"Nimble::NimbleCwlMachBadInstructionHandler" /* NimbleCwlMachBadInstructionHandler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_233 /* Build configuration list for PBXNativeTarget "NimbleCwlMachBadInstructionHandler" */;
+			buildConfigurationList = OBJ_232 /* Build configuration list for PBXNativeTarget "NimbleCwlMachBadInstructionHandler" */;
 			buildPhases = (
-				OBJ_236 /* Sources */,
-				OBJ_239 /* Frameworks */,
+				OBJ_235 /* Sources */,
+				OBJ_238 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -907,17 +906,17 @@
 		};
 		"Nimble::NimbleCwlPreconditionTesting" /* NimbleCwlPreconditionTesting */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_240 /* Build configuration list for PBXNativeTarget "NimbleCwlPreconditionTesting" */;
+			buildConfigurationList = OBJ_239 /* Build configuration list for PBXNativeTarget "NimbleCwlPreconditionTesting" */;
 			buildPhases = (
-				OBJ_243 /* Sources */,
-				OBJ_247 /* Frameworks */,
+				OBJ_242 /* Sources */,
+				OBJ_246 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				OBJ_250 /* PBXTargetDependency */,
 				OBJ_251 /* PBXTargetDependency */,
 				OBJ_252 /* PBXTargetDependency */,
-				OBJ_253 /* PBXTargetDependency */,
 			);
 			name = NimbleCwlPreconditionTesting;
 			productName = NimbleCwlPreconditionTesting;
@@ -926,9 +925,9 @@
 		};
 		"Nimble::SwiftPMPackageDescription" /* NimblePackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_255 /* Build configuration list for PBXNativeTarget "NimblePackageDescription" */;
+			buildConfigurationList = OBJ_254 /* Build configuration list for PBXNativeTarget "NimblePackageDescription" */;
 			buildPhases = (
-				OBJ_258 /* Sources */,
+				OBJ_257 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -940,10 +939,10 @@
 		};
 		"PinKit::PinKit" /* PinKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_261 /* Build configuration list for PBXNativeTarget "PinKit" */;
+			buildConfigurationList = OBJ_260 /* Build configuration list for PBXNativeTarget "PinKit" */;
 			buildPhases = (
-				OBJ_264 /* Sources */,
-				OBJ_270 /* Frameworks */,
+				OBJ_263 /* Sources */,
+				OBJ_269 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -956,22 +955,23 @@
 		};
 		"PinKit::PinKitTests" /* PinKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_283 /* Build configuration list for PBXNativeTarget "PinKitTests" */;
+			buildConfigurationList = OBJ_282 /* Build configuration list for PBXNativeTarget "PinKitTests" */;
 			buildPhases = (
-				OBJ_286 /* Sources */,
-				OBJ_293 /* Frameworks */,
+				OBJ_285 /* Sources */,
+				OBJ_292 /* Frameworks */,
+				F8D094FE24FB5DBA000899E6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				OBJ_301 /* PBXTargetDependency */,
 				OBJ_302 /* PBXTargetDependency */,
 				OBJ_303 /* PBXTargetDependency */,
 				OBJ_304 /* PBXTargetDependency */,
 				OBJ_305 /* PBXTargetDependency */,
 				OBJ_306 /* PBXTargetDependency */,
-				OBJ_307 /* PBXTargetDependency */,
-				OBJ_309 /* PBXTargetDependency */,
-				OBJ_311 /* PBXTargetDependency */,
+				OBJ_308 /* PBXTargetDependency */,
+				OBJ_310 /* PBXTargetDependency */,
 			);
 			name = PinKitTests;
 			productName = PinKitTests;
@@ -980,9 +980,9 @@
 		};
 		"PinKit::SwiftPMPackageDescription" /* PinKitPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_272 /* Build configuration list for PBXNativeTarget "PinKitPackageDescription" */;
+			buildConfigurationList = OBJ_271 /* Build configuration list for PBXNativeTarget "PinKitPackageDescription" */;
 			buildPhases = (
-				OBJ_275 /* Sources */,
+				OBJ_274 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -994,15 +994,15 @@
 		};
 		"Quick::Quick" /* Quick */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_312 /* Build configuration list for PBXNativeTarget "Quick" */;
+			buildConfigurationList = OBJ_311 /* Build configuration list for PBXNativeTarget "Quick" */;
 			buildPhases = (
-				OBJ_315 /* Sources */,
-				OBJ_340 /* Frameworks */,
+				OBJ_314 /* Sources */,
+				OBJ_339 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_342 /* PBXTargetDependency */,
+				OBJ_341 /* PBXTargetDependency */,
 			);
 			name = Quick;
 			productName = Quick;
@@ -1011,11 +1011,10 @@
 		};
 		"Quick::QuickObjCRuntime" /* QuickObjCRuntime */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_343 /* Build configuration list for PBXNativeTarget "QuickObjCRuntime" */;
+			buildConfigurationList = OBJ_342 /* Build configuration list for PBXNativeTarget "QuickObjCRuntime" */;
 			buildPhases = (
-				OBJ_346 /* Sources */,
-				OBJ_348 /* Frameworks */,
-				F8D094D424FB59B1000899E6 /* Embed Frameworks */,
+				OBJ_345 /* Sources */,
+				OBJ_347 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1028,9 +1027,9 @@
 		};
 		"Quick::SwiftPMPackageDescription" /* QuickPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_350 /* Build configuration list for PBXNativeTarget "QuickPackageDescription" */;
+			buildConfigurationList = OBJ_349 /* Build configuration list for PBXNativeTarget "QuickPackageDescription" */;
 			buildPhases = (
-				OBJ_353 /* Sources */,
+				OBJ_352 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -1079,285 +1078,285 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_153 /* Sources */ = {
+		OBJ_152 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_154 /* AdapterProtocols.swift in Sources */,
-				OBJ_155 /* AssertionDispatcher.swift in Sources */,
-				OBJ_156 /* AssertionRecorder.swift in Sources */,
-				OBJ_157 /* NMBExpectation.swift in Sources */,
-				OBJ_158 /* NMBObjCMatcher.swift in Sources */,
-				OBJ_159 /* NimbleEnvironment.swift in Sources */,
-				OBJ_160 /* NimbleXCTestHandler.swift in Sources */,
-				OBJ_161 /* ExceptionCapture.swift in Sources */,
-				OBJ_162 /* DSL+Wait.swift in Sources */,
-				OBJ_163 /* DSL.swift in Sources */,
-				OBJ_164 /* Expectation.swift in Sources */,
-				OBJ_165 /* ExpectationMessage.swift in Sources */,
-				OBJ_166 /* Expression.swift in Sources */,
-				OBJ_167 /* FailureMessage.swift in Sources */,
-				OBJ_168 /* AllPass.swift in Sources */,
-				OBJ_169 /* Async.swift in Sources */,
-				OBJ_170 /* BeAKindOf.swift in Sources */,
-				OBJ_171 /* BeAnInstanceOf.swift in Sources */,
-				OBJ_172 /* BeCloseTo.swift in Sources */,
-				OBJ_173 /* BeEmpty.swift in Sources */,
-				OBJ_174 /* BeGreaterThan.swift in Sources */,
-				OBJ_175 /* BeGreaterThanOrEqualTo.swift in Sources */,
-				OBJ_176 /* BeIdenticalTo.swift in Sources */,
-				OBJ_177 /* BeLessThan.swift in Sources */,
-				OBJ_178 /* BeLessThanOrEqual.swift in Sources */,
-				OBJ_179 /* BeLogical.swift in Sources */,
-				OBJ_180 /* BeNil.swift in Sources */,
-				OBJ_181 /* BeVoid.swift in Sources */,
-				OBJ_182 /* BeginWith.swift in Sources */,
-				OBJ_183 /* Contain.swift in Sources */,
-				OBJ_184 /* ContainElementSatisfying.swift in Sources */,
-				OBJ_185 /* ElementsEqual.swift in Sources */,
-				OBJ_186 /* EndWith.swift in Sources */,
-				OBJ_187 /* Equal.swift in Sources */,
-				OBJ_188 /* HaveCount.swift in Sources */,
-				OBJ_189 /* Match.swift in Sources */,
-				OBJ_190 /* MatchError.swift in Sources */,
-				OBJ_191 /* MatcherFunc.swift in Sources */,
-				OBJ_192 /* MatcherProtocols.swift in Sources */,
-				OBJ_193 /* PostNotification.swift in Sources */,
-				OBJ_194 /* Predicate.swift in Sources */,
-				OBJ_195 /* RaisesException.swift in Sources */,
-				OBJ_196 /* SatisfyAllOf.swift in Sources */,
-				OBJ_197 /* SatisfyAnyOf.swift in Sources */,
-				OBJ_198 /* ThrowAssertion.swift in Sources */,
-				OBJ_199 /* ThrowError.swift in Sources */,
-				OBJ_200 /* ToSucceed.swift in Sources */,
-				OBJ_201 /* Await.swift in Sources */,
-				OBJ_202 /* Errors.swift in Sources */,
-				OBJ_203 /* Functional.swift in Sources */,
-				OBJ_204 /* SourceLocation.swift in Sources */,
-				OBJ_205 /* Stringers.swift in Sources */,
+				OBJ_153 /* AdapterProtocols.swift in Sources */,
+				OBJ_154 /* AssertionDispatcher.swift in Sources */,
+				OBJ_155 /* AssertionRecorder.swift in Sources */,
+				OBJ_156 /* NMBExpectation.swift in Sources */,
+				OBJ_157 /* NMBObjCMatcher.swift in Sources */,
+				OBJ_158 /* NimbleEnvironment.swift in Sources */,
+				OBJ_159 /* NimbleXCTestHandler.swift in Sources */,
+				OBJ_160 /* ExceptionCapture.swift in Sources */,
+				OBJ_161 /* DSL+Wait.swift in Sources */,
+				OBJ_162 /* DSL.swift in Sources */,
+				OBJ_163 /* Expectation.swift in Sources */,
+				OBJ_164 /* ExpectationMessage.swift in Sources */,
+				OBJ_165 /* Expression.swift in Sources */,
+				OBJ_166 /* FailureMessage.swift in Sources */,
+				OBJ_167 /* AllPass.swift in Sources */,
+				OBJ_168 /* Async.swift in Sources */,
+				OBJ_169 /* BeAKindOf.swift in Sources */,
+				OBJ_170 /* BeAnInstanceOf.swift in Sources */,
+				OBJ_171 /* BeCloseTo.swift in Sources */,
+				OBJ_172 /* BeEmpty.swift in Sources */,
+				OBJ_173 /* BeGreaterThan.swift in Sources */,
+				OBJ_174 /* BeGreaterThanOrEqualTo.swift in Sources */,
+				OBJ_175 /* BeIdenticalTo.swift in Sources */,
+				OBJ_176 /* BeLessThan.swift in Sources */,
+				OBJ_177 /* BeLessThanOrEqual.swift in Sources */,
+				OBJ_178 /* BeLogical.swift in Sources */,
+				OBJ_179 /* BeNil.swift in Sources */,
+				OBJ_180 /* BeVoid.swift in Sources */,
+				OBJ_181 /* BeginWith.swift in Sources */,
+				OBJ_182 /* Contain.swift in Sources */,
+				OBJ_183 /* ContainElementSatisfying.swift in Sources */,
+				OBJ_184 /* ElementsEqual.swift in Sources */,
+				OBJ_185 /* EndWith.swift in Sources */,
+				OBJ_186 /* Equal.swift in Sources */,
+				OBJ_187 /* HaveCount.swift in Sources */,
+				OBJ_188 /* Match.swift in Sources */,
+				OBJ_189 /* MatchError.swift in Sources */,
+				OBJ_190 /* MatcherFunc.swift in Sources */,
+				OBJ_191 /* MatcherProtocols.swift in Sources */,
+				OBJ_192 /* PostNotification.swift in Sources */,
+				OBJ_193 /* Predicate.swift in Sources */,
+				OBJ_194 /* RaisesException.swift in Sources */,
+				OBJ_195 /* SatisfyAllOf.swift in Sources */,
+				OBJ_196 /* SatisfyAnyOf.swift in Sources */,
+				OBJ_197 /* ThrowAssertion.swift in Sources */,
+				OBJ_198 /* ThrowError.swift in Sources */,
+				OBJ_199 /* ToSucceed.swift in Sources */,
+				OBJ_200 /* Await.swift in Sources */,
+				OBJ_201 /* Errors.swift in Sources */,
+				OBJ_202 /* Functional.swift in Sources */,
+				OBJ_203 /* SourceLocation.swift in Sources */,
+				OBJ_204 /* Stringers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_222 /* Sources */ = {
+		OBJ_221 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_223 /* CwlCatchException.swift in Sources */,
+				OBJ_222 /* CwlCatchException.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_230 /* Sources */ = {
+		OBJ_229 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_231 /* CwlCatchException.m in Sources */,
+				OBJ_230 /* CwlCatchException.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_236 /* Sources */ = {
+		OBJ_235 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_237 /* CwlMachBadInstructionHandler.m in Sources */,
-				OBJ_238 /* mach_excServer.c in Sources */,
+				OBJ_236 /* CwlMachBadInstructionHandler.m in Sources */,
+				OBJ_237 /* mach_excServer.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_243 /* Sources */ = {
+		OBJ_242 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_244 /* CwlBadInstructionException.swift in Sources */,
-				OBJ_245 /* CwlCatchBadInstruction.swift in Sources */,
-				OBJ_246 /* CwlDarwinDefinitions.swift in Sources */,
+				OBJ_243 /* CwlBadInstructionException.swift in Sources */,
+				OBJ_244 /* CwlCatchBadInstruction.swift in Sources */,
+				OBJ_245 /* CwlDarwinDefinitions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_258 /* Sources */ = {
+		OBJ_257 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_259 /* Package.swift in Sources */,
+				OBJ_258 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_264 /* Sources */ = {
+		OBJ_263 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_265 /* Post.swift in Sources */,
-				OBJ_266 /* PostsAdd.swift in Sources */,
-				OBJ_267 /* PostsDelete.swift in Sources */,
-				OBJ_268 /* PostsUpdate.swift in Sources */,
-				OBJ_269 /* Service.swift in Sources */,
+				OBJ_264 /* Post.swift in Sources */,
+				OBJ_265 /* PostsAdd.swift in Sources */,
+				OBJ_266 /* PostsDelete.swift in Sources */,
+				OBJ_267 /* PostsUpdate.swift in Sources */,
+				OBJ_268 /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_275 /* Sources */ = {
+		OBJ_274 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_276 /* Package.swift in Sources */,
+				OBJ_275 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_286 /* Sources */ = {
+		OBJ_285 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_287 /* Files.swift in Sources */,
-				OBJ_288 /* PostSpec.swift in Sources */,
-				OBJ_289 /* PostsAddSpec.swift in Sources */,
-				OBJ_290 /* PostsDeleteSpec.swift in Sources */,
-				OBJ_291 /* PostsUpdateSpec.swift in Sources */,
-				OBJ_292 /* ServiceSpec.swift in Sources */,
+				OBJ_286 /* Files.swift in Sources */,
+				OBJ_287 /* PostSpec.swift in Sources */,
+				OBJ_288 /* PostsAddSpec.swift in Sources */,
+				OBJ_289 /* PostsDeleteSpec.swift in Sources */,
+				OBJ_290 /* PostsUpdateSpec.swift in Sources */,
+				OBJ_291 /* ServiceSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_315 /* Sources */ = {
+		OBJ_314 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_316 /* Behavior.swift in Sources */,
-				OBJ_317 /* Callsite.swift in Sources */,
-				OBJ_318 /* Configuration.swift in Sources */,
-				OBJ_319 /* QuickConfiguration.swift in Sources */,
-				OBJ_320 /* DSL.swift in Sources */,
-				OBJ_321 /* World+DSL.swift in Sources */,
-				OBJ_322 /* ErrorUtility.swift in Sources */,
-				OBJ_323 /* Example.swift in Sources */,
-				OBJ_324 /* ExampleGroup.swift in Sources */,
-				OBJ_325 /* ExampleMetadata.swift in Sources */,
-				OBJ_326 /* Filter.swift in Sources */,
-				OBJ_327 /* Closures.swift in Sources */,
-				OBJ_328 /* ExampleHooks.swift in Sources */,
-				OBJ_329 /* HooksPhase.swift in Sources */,
-				OBJ_330 /* SuiteHooks.swift in Sources */,
-				OBJ_331 /* NSBundle+CurrentTestBundle.swift in Sources */,
-				OBJ_332 /* QuickMain.swift in Sources */,
-				OBJ_333 /* QuickSelectedTestSuiteBuilder.swift in Sources */,
-				OBJ_334 /* QuickSpec.swift in Sources */,
-				OBJ_335 /* QuickTestObservation.swift in Sources */,
-				OBJ_336 /* QuickTestSuite.swift in Sources */,
-				OBJ_337 /* String+C99ExtendedIdentifier.swift in Sources */,
-				OBJ_338 /* URL+FileName.swift in Sources */,
-				OBJ_339 /* World.swift in Sources */,
+				OBJ_315 /* Behavior.swift in Sources */,
+				OBJ_316 /* Callsite.swift in Sources */,
+				OBJ_317 /* Configuration.swift in Sources */,
+				OBJ_318 /* QuickConfiguration.swift in Sources */,
+				OBJ_319 /* DSL.swift in Sources */,
+				OBJ_320 /* World+DSL.swift in Sources */,
+				OBJ_321 /* ErrorUtility.swift in Sources */,
+				OBJ_322 /* Example.swift in Sources */,
+				OBJ_323 /* ExampleGroup.swift in Sources */,
+				OBJ_324 /* ExampleMetadata.swift in Sources */,
+				OBJ_325 /* Filter.swift in Sources */,
+				OBJ_326 /* Closures.swift in Sources */,
+				OBJ_327 /* ExampleHooks.swift in Sources */,
+				OBJ_328 /* HooksPhase.swift in Sources */,
+				OBJ_329 /* SuiteHooks.swift in Sources */,
+				OBJ_330 /* NSBundle+CurrentTestBundle.swift in Sources */,
+				OBJ_331 /* QuickMain.swift in Sources */,
+				OBJ_332 /* QuickSelectedTestSuiteBuilder.swift in Sources */,
+				OBJ_333 /* QuickSpec.swift in Sources */,
+				OBJ_334 /* QuickTestObservation.swift in Sources */,
+				OBJ_335 /* QuickTestSuite.swift in Sources */,
+				OBJ_336 /* String+C99ExtendedIdentifier.swift in Sources */,
+				OBJ_337 /* URL+FileName.swift in Sources */,
+				OBJ_338 /* World.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_346 /* Sources */ = {
+		OBJ_345 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_347 /* QuickSpecBase.m in Sources */,
+				OBJ_346 /* QuickSpecBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_353 /* Sources */ = {
+		OBJ_352 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_354 /* Package.swift in Sources */,
+				OBJ_353 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_211 /* PBXTargetDependency */ = {
+		OBJ_210 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Nimble::NimbleCwlPreconditionTesting" /* NimbleCwlPreconditionTesting */;
-			targetProxy = F8D094C324FB1A4E000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D094F024FB5DB0000899E6 /* PBXContainerItemProxy */;
 		};
-		OBJ_213 /* PBXTargetDependency */ = {
+		OBJ_212 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Nimble::NimbleCwlCatchException" /* NimbleCwlCatchException */;
-			targetProxy = F8D094C424FB1A4E000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D094F124FB5DB0000899E6 /* PBXContainerItemProxy */;
 		};
-		OBJ_215 /* PBXTargetDependency */ = {
+		OBJ_214 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Nimble::NimbleCwlCatchExceptionSupport" /* NimbleCwlCatchExceptionSupport */;
-			targetProxy = F8D094C524FB1A4E000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D094F224FB5DB0000899E6 /* PBXContainerItemProxy */;
 		};
-		OBJ_217 /* PBXTargetDependency */ = {
+		OBJ_216 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Nimble::NimbleCwlMachBadInstructionHandler" /* NimbleCwlMachBadInstructionHandler */;
-			targetProxy = F8D094C624FB1A4E000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D094F324FB5DB0000899E6 /* PBXContainerItemProxy */;
 		};
-		OBJ_226 /* PBXTargetDependency */ = {
+		OBJ_225 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Nimble::NimbleCwlCatchExceptionSupport" /* NimbleCwlCatchExceptionSupport */;
-			targetProxy = F8D094BF24FB1A4E000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D094ED24FB5DB0000899E6 /* PBXContainerItemProxy */;
+		};
+		OBJ_250 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Nimble::NimbleCwlCatchException" /* NimbleCwlCatchException */;
+			targetProxy = F8D094EC24FB5DB0000899E6 /* PBXContainerItemProxy */;
 		};
 		OBJ_251 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "Nimble::NimbleCwlCatchException" /* NimbleCwlCatchException */;
-			targetProxy = F8D094C024FB1A4E000899E6 /* PBXContainerItemProxy */;
+			target = "Nimble::NimbleCwlCatchExceptionSupport" /* NimbleCwlCatchExceptionSupport */;
+			targetProxy = F8D094EE24FB5DB0000899E6 /* PBXContainerItemProxy */;
 		};
 		OBJ_252 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "Nimble::NimbleCwlCatchExceptionSupport" /* NimbleCwlCatchExceptionSupport */;
-			targetProxy = F8D094C124FB1A4E000899E6 /* PBXContainerItemProxy */;
-		};
-		OBJ_253 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
 			target = "Nimble::NimbleCwlMachBadInstructionHandler" /* NimbleCwlMachBadInstructionHandler */;
-			targetProxy = F8D094C224FB1A4E000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D094EF24FB5DB0000899E6 /* PBXContainerItemProxy */;
 		};
-		OBJ_281 /* PBXTargetDependency */ = {
+		OBJ_280 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PinKit::PinKitTests" /* PinKitTests */;
-			targetProxy = F8D094CF24FB1A4E000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D094FD24FB5DB0000899E6 /* PBXContainerItemProxy */;
+		};
+		OBJ_301 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Nimble::Nimble" /* Nimble */;
+			targetProxy = F8D094F524FB5DB0000899E6 /* PBXContainerItemProxy */;
 		};
 		OBJ_302 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "Nimble::Nimble" /* Nimble */;
-			targetProxy = F8D094C724FB1A4E000899E6 /* PBXContainerItemProxy */;
+			target = "Nimble::NimbleCwlPreconditionTesting" /* NimbleCwlPreconditionTesting */;
+			targetProxy = F8D094F624FB5DB0000899E6 /* PBXContainerItemProxy */;
 		};
 		OBJ_303 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "Nimble::NimbleCwlPreconditionTesting" /* NimbleCwlPreconditionTesting */;
-			targetProxy = F8D094C824FB1A4E000899E6 /* PBXContainerItemProxy */;
+			target = "Nimble::NimbleCwlCatchException" /* NimbleCwlCatchException */;
+			targetProxy = F8D094F724FB5DB0000899E6 /* PBXContainerItemProxy */;
 		};
 		OBJ_304 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "Nimble::NimbleCwlCatchException" /* NimbleCwlCatchException */;
-			targetProxy = F8D094C924FB1A4E000899E6 /* PBXContainerItemProxy */;
+			target = "Nimble::NimbleCwlCatchExceptionSupport" /* NimbleCwlCatchExceptionSupport */;
+			targetProxy = F8D094F824FB5DB0000899E6 /* PBXContainerItemProxy */;
 		};
 		OBJ_305 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "Nimble::NimbleCwlCatchExceptionSupport" /* NimbleCwlCatchExceptionSupport */;
-			targetProxy = F8D094CA24FB1A4E000899E6 /* PBXContainerItemProxy */;
+			target = "Nimble::NimbleCwlMachBadInstructionHandler" /* NimbleCwlMachBadInstructionHandler */;
+			targetProxy = F8D094F924FB5DB0000899E6 /* PBXContainerItemProxy */;
 		};
 		OBJ_306 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "Nimble::NimbleCwlMachBadInstructionHandler" /* NimbleCwlMachBadInstructionHandler */;
-			targetProxy = F8D094CB24FB1A4E000899E6 /* PBXContainerItemProxy */;
-		};
-		OBJ_307 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
 			target = "Quick::Quick" /* Quick */;
-			targetProxy = F8D094CC24FB1A4E000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D094FA24FB5DB0000899E6 /* PBXContainerItemProxy */;
 		};
-		OBJ_309 /* PBXTargetDependency */ = {
+		OBJ_308 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Quick::QuickObjCRuntime" /* QuickObjCRuntime */;
-			targetProxy = F8D094CD24FB1A4E000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D094FB24FB5DB0000899E6 /* PBXContainerItemProxy */;
 		};
-		OBJ_311 /* PBXTargetDependency */ = {
+		OBJ_310 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PinKit::PinKit" /* PinKit */;
-			targetProxy = F8D094CE24FB1A4E000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D094FC24FB5DB0000899E6 /* PBXContainerItemProxy */;
 		};
-		OBJ_342 /* PBXTargetDependency */ = {
+		OBJ_341 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Quick::QuickObjCRuntime" /* QuickObjCRuntime */;
-			targetProxy = F8D094BE24FB1A4E000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D094F424FB5DB0000899E6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_151 /* Debug */ = {
+		OBJ_150 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1391,7 +1390,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_152 /* Release */ = {
+		OBJ_151 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1425,7 +1424,7 @@
 			};
 			name = Release;
 		};
-		OBJ_220 /* Debug */ = {
+		OBJ_219 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1457,7 +1456,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_221 /* Release */ = {
+		OBJ_220 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1489,7 +1488,7 @@
 			};
 			name = Release;
 		};
-		OBJ_228 /* Debug */ = {
+		OBJ_227 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = NO;
@@ -1520,7 +1519,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_229 /* Release */ = {
+		OBJ_228 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = NO;
@@ -1551,7 +1550,7 @@
 			};
 			name = Release;
 		};
-		OBJ_234 /* Debug */ = {
+		OBJ_233 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = NO;
@@ -1582,7 +1581,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_235 /* Release */ = {
+		OBJ_234 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = NO;
@@ -1613,7 +1612,7 @@
 			};
 			name = Release;
 		};
-		OBJ_241 /* Debug */ = {
+		OBJ_240 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1647,7 +1646,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_242 /* Release */ = {
+		OBJ_241 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1681,7 +1680,7 @@
 			};
 			name = Release;
 		};
-		OBJ_256 /* Debug */ = {
+		OBJ_255 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1690,7 +1689,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_257 /* Release */ = {
+		OBJ_256 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1699,7 +1698,7 @@
 			};
 			name = Release;
 		};
-		OBJ_262 /* Debug */ = {
+		OBJ_261 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1727,7 +1726,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_263 /* Release */ = {
+		OBJ_262 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1755,7 +1754,7 @@
 			};
 			name = Release;
 		};
-		OBJ_273 /* Debug */ = {
+		OBJ_272 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1764,7 +1763,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_274 /* Release */ = {
+		OBJ_273 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1773,19 +1772,19 @@
 			};
 			name = Release;
 		};
-		OBJ_279 /* Debug */ = {
+		OBJ_278 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Debug;
 		};
-		OBJ_280 /* Release */ = {
+		OBJ_279 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Release;
 		};
-		OBJ_284 /* Debug */ = {
+		OBJ_283 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -1818,7 +1817,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_285 /* Release */ = {
+		OBJ_284 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -1878,7 +1877,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_313 /* Debug */ = {
+		OBJ_312 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1910,7 +1909,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_314 /* Release */ = {
+		OBJ_313 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1942,7 +1941,7 @@
 			};
 			name = Release;
 		};
-		OBJ_344 /* Debug */ = {
+		OBJ_343 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = NO;
@@ -1973,7 +1972,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_345 /* Release */ = {
+		OBJ_344 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = NO;
@@ -2004,7 +2003,7 @@
 			};
 			name = Release;
 		};
-		OBJ_351 /* Debug */ = {
+		OBJ_350 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -2013,7 +2012,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_352 /* Release */ = {
+		OBJ_351 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -2049,11 +2048,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_150 /* Build configuration list for PBXNativeTarget "Nimble" */ = {
+		OBJ_149 /* Build configuration list for PBXNativeTarget "Nimble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_151 /* Debug */,
-				OBJ_152 /* Release */,
+				OBJ_150 /* Debug */,
+				OBJ_151 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2067,110 +2066,110 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_219 /* Build configuration list for PBXNativeTarget "NimbleCwlCatchException" */ = {
+		OBJ_218 /* Build configuration list for PBXNativeTarget "NimbleCwlCatchException" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_220 /* Debug */,
-				OBJ_221 /* Release */,
+				OBJ_219 /* Debug */,
+				OBJ_220 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_227 /* Build configuration list for PBXNativeTarget "NimbleCwlCatchExceptionSupport" */ = {
+		OBJ_226 /* Build configuration list for PBXNativeTarget "NimbleCwlCatchExceptionSupport" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_228 /* Debug */,
-				OBJ_229 /* Release */,
+				OBJ_227 /* Debug */,
+				OBJ_228 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_233 /* Build configuration list for PBXNativeTarget "NimbleCwlMachBadInstructionHandler" */ = {
+		OBJ_232 /* Build configuration list for PBXNativeTarget "NimbleCwlMachBadInstructionHandler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_234 /* Debug */,
-				OBJ_235 /* Release */,
+				OBJ_233 /* Debug */,
+				OBJ_234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_240 /* Build configuration list for PBXNativeTarget "NimbleCwlPreconditionTesting" */ = {
+		OBJ_239 /* Build configuration list for PBXNativeTarget "NimbleCwlPreconditionTesting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_241 /* Debug */,
-				OBJ_242 /* Release */,
+				OBJ_240 /* Debug */,
+				OBJ_241 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_255 /* Build configuration list for PBXNativeTarget "NimblePackageDescription" */ = {
+		OBJ_254 /* Build configuration list for PBXNativeTarget "NimblePackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_256 /* Debug */,
-				OBJ_257 /* Release */,
+				OBJ_255 /* Debug */,
+				OBJ_256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_261 /* Build configuration list for PBXNativeTarget "PinKit" */ = {
+		OBJ_260 /* Build configuration list for PBXNativeTarget "PinKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_262 /* Debug */,
-				OBJ_263 /* Release */,
+				OBJ_261 /* Debug */,
+				OBJ_262 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_272 /* Build configuration list for PBXNativeTarget "PinKitPackageDescription" */ = {
+		OBJ_271 /* Build configuration list for PBXNativeTarget "PinKitPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_273 /* Debug */,
-				OBJ_274 /* Release */,
+				OBJ_272 /* Debug */,
+				OBJ_273 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_278 /* Build configuration list for PBXAggregateTarget "PinKitPackageTests" */ = {
+		OBJ_277 /* Build configuration list for PBXAggregateTarget "PinKitPackageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_279 /* Debug */,
-				OBJ_280 /* Release */,
+				OBJ_278 /* Debug */,
+				OBJ_279 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_283 /* Build configuration list for PBXNativeTarget "PinKitTests" */ = {
+		OBJ_282 /* Build configuration list for PBXNativeTarget "PinKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_284 /* Debug */,
-				OBJ_285 /* Release */,
+				OBJ_283 /* Debug */,
+				OBJ_284 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_312 /* Build configuration list for PBXNativeTarget "Quick" */ = {
+		OBJ_311 /* Build configuration list for PBXNativeTarget "Quick" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_313 /* Debug */,
-				OBJ_314 /* Release */,
+				OBJ_312 /* Debug */,
+				OBJ_313 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_343 /* Build configuration list for PBXNativeTarget "QuickObjCRuntime" */ = {
+		OBJ_342 /* Build configuration list for PBXNativeTarget "QuickObjCRuntime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_344 /* Debug */,
-				OBJ_345 /* Release */,
+				OBJ_343 /* Debug */,
+				OBJ_344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_350 /* Build configuration list for PBXNativeTarget "QuickPackageDescription" */ = {
+		OBJ_349 /* Build configuration list for PBXNativeTarget "QuickPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_351 /* Debug */,
-				OBJ_352 /* Release */,
+				OBJ_350 /* Debug */,
+				OBJ_351 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

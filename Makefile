@@ -96,22 +96,12 @@ update: resolve
 	swift package update
 
 .PHONY: build
-build: copyRunResources
+build:
 	swift build $(SWIFTC_FLAGS) $(LINKER_FLAGS)
 
 .PHONY: test
-test: build copyTestResources
+test: build
 	swift test --enable-test-discovery
-
-.PHONY: copyRunResources
-copyRunResources:
-	mkdir -p ${RUN_RESOURCES_DIRECTORY}
-	cp -r Resources/* ${RUN_RESOURCES_DIRECTORY}
-
-.PHONY: copyTestResources
-copyTestResources:
-	mkdir -p ${TEST_RESOURCES_DIRECTORY}
-	cp -r Resources/* ${TEST_RESOURCES_DIRECTORY}
 
 .PHONY: run
 # make run ARGS="asdf"

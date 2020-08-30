@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "PinKit",
+    defaultLocalization: "en",
     products: [
         .library(
             name: "PinKit",
@@ -20,7 +21,10 @@ let package = Package(
             dependencies: []),
         .testTarget(
             name: "PinKitTests",
-            dependencies: ["PinKit", "Quick", "Nimble"]),
+            dependencies: ["PinKit", "Quick", "Nimble"],
+            resources: [
+                .copy("Resources/JSON")
+            ]),
     ],
     swiftLanguageVersions: [.v5]
 )
