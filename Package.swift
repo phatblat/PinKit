@@ -12,6 +12,7 @@ let package = Package(
             targets: ["PinKit"]),
     ],
     dependencies: [
+        // .package(path: "../Quick"),
         .package(url: "git@github.com:Quick/Quick.git", .upToNextMajor(from: "3.0.0")),
         .package(url: "git@github.com:Quick/Nimble.git", .upToNextMajor(from: "8.1.1")),
     ],

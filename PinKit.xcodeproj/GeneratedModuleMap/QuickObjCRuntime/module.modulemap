@@ -1,4 +1,4 @@
 module QuickObjCRuntime {
-    umbrella "/Volumes/Catalina/Users/phatblat/dev/swift/PinKit/.build/checkouts/Quick/Sources/QuickObjCRuntime/include"
+    umbrella "/Volumes/Catalina/Users/phatblat/dev/swift/Quick/Sources/QuickObjCRuntime/include"
     export *
 }

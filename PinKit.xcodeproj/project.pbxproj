@@ -21,8 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		F8D0950024FB5DDF000899E6 /* JSON in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8D094FF24FB5DD8000899E6 /* JSON */; };
-		F8D0950424FB5E21000899E6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D0950224FB5DF3000899E6 /* XCTest.framework */; };
+		F8D095BB24FC27EC000899E6 /* JSON in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8D095BA24FC27E6000899E6 /* JSON */; };
 		OBJ_153 /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* AdapterProtocols.swift */; };
 		OBJ_154 /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* AssertionDispatcher.swift */; };
 		OBJ_155 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* AssertionRecorder.swift */; };
@@ -141,126 +140,126 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F8D094EC24FB5DB0000899E6 /* PBXContainerItemProxy */ = {
+		F8D095A724FC27AC000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Nimble::NimbleCwlCatchException";
 			remoteInfo = NimbleCwlCatchException;
 		};
-		F8D094ED24FB5DB0000899E6 /* PBXContainerItemProxy */ = {
+		F8D095A824FC27AC000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Nimble::NimbleCwlCatchExceptionSupport";
 			remoteInfo = NimbleCwlCatchExceptionSupport;
 		};
-		F8D094EE24FB5DB0000899E6 /* PBXContainerItemProxy */ = {
+		F8D095A924FC27AC000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Nimble::NimbleCwlCatchExceptionSupport";
 			remoteInfo = NimbleCwlCatchExceptionSupport;
 		};
-		F8D094EF24FB5DB0000899E6 /* PBXContainerItemProxy */ = {
+		F8D095AA24FC27AC000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Nimble::NimbleCwlMachBadInstructionHandler";
 			remoteInfo = NimbleCwlMachBadInstructionHandler;
 		};
-		F8D094F024FB5DB0000899E6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Nimble::NimbleCwlPreconditionTesting";
-			remoteInfo = NimbleCwlPreconditionTesting;
-		};
-		F8D094F124FB5DB0000899E6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Nimble::NimbleCwlCatchException";
-			remoteInfo = NimbleCwlCatchException;
-		};
-		F8D094F224FB5DB0000899E6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Nimble::NimbleCwlCatchExceptionSupport";
-			remoteInfo = NimbleCwlCatchExceptionSupport;
-		};
-		F8D094F324FB5DB0000899E6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Nimble::NimbleCwlMachBadInstructionHandler";
-			remoteInfo = NimbleCwlMachBadInstructionHandler;
-		};
-		F8D094F424FB5DB0000899E6 /* PBXContainerItemProxy */ = {
+		F8D095AB24FC27AC000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Quick::QuickObjCRuntime";
 			remoteInfo = QuickObjCRuntime;
 		};
-		F8D094F524FB5DB0000899E6 /* PBXContainerItemProxy */ = {
+		F8D095AC24FC27AC000899E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Nimble::NimbleCwlPreconditionTesting";
+			remoteInfo = NimbleCwlPreconditionTesting;
+		};
+		F8D095AD24FC27AC000899E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Nimble::NimbleCwlCatchException";
+			remoteInfo = NimbleCwlCatchException;
+		};
+		F8D095AE24FC27AC000899E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Nimble::NimbleCwlCatchExceptionSupport";
+			remoteInfo = NimbleCwlCatchExceptionSupport;
+		};
+		F8D095AF24FC27AC000899E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Nimble::NimbleCwlMachBadInstructionHandler";
+			remoteInfo = NimbleCwlMachBadInstructionHandler;
+		};
+		F8D095B024FC27AC000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Nimble::Nimble";
 			remoteInfo = Nimble;
 		};
-		F8D094F624FB5DB0000899E6 /* PBXContainerItemProxy */ = {
+		F8D095B124FC27AC000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Nimble::NimbleCwlPreconditionTesting";
 			remoteInfo = NimbleCwlPreconditionTesting;
 		};
-		F8D094F724FB5DB0000899E6 /* PBXContainerItemProxy */ = {
+		F8D095B224FC27AC000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Nimble::NimbleCwlCatchException";
 			remoteInfo = NimbleCwlCatchException;
 		};
-		F8D094F824FB5DB0000899E6 /* PBXContainerItemProxy */ = {
+		F8D095B324FC27AC000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Nimble::NimbleCwlCatchExceptionSupport";
 			remoteInfo = NimbleCwlCatchExceptionSupport;
 		};
-		F8D094F924FB5DB0000899E6 /* PBXContainerItemProxy */ = {
+		F8D095B424FC27AC000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Nimble::NimbleCwlMachBadInstructionHandler";
 			remoteInfo = NimbleCwlMachBadInstructionHandler;
 		};
-		F8D094FA24FB5DB0000899E6 /* PBXContainerItemProxy */ = {
+		F8D095B524FC27AC000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Quick::Quick";
 			remoteInfo = Quick;
 		};
-		F8D094FB24FB5DB0000899E6 /* PBXContainerItemProxy */ = {
+		F8D095B624FC27AC000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Quick::QuickObjCRuntime";
 			remoteInfo = QuickObjCRuntime;
 		};
-		F8D094FC24FB5DB0000899E6 /* PBXContainerItemProxy */ = {
+		F8D095B724FC27AC000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PinKit::PinKit";
 			remoteInfo = PinKit;
 		};
-		F8D094FD24FB5DB0000899E6 /* PBXContainerItemProxy */ = {
+		F8D095B824FC27AC000899E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -270,21 +269,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F8D094FE24FB5DBA000899E6 /* CopyFiles */ = {
+		F8D095B924FC27CA000899E6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				F8D0950024FB5DDF000899E6 /* JSON in CopyFiles */,
+				F8D095BB24FC27EC000899E6 /* JSON in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F8D094FF24FB5DD8000899E6 /* JSON */ = {isa = PBXFileReference; lastKnownFileType = folder; name = JSON; path = Resources/JSON; sourceTree = "<group>"; };
-		F8D0950224FB5DF3000899E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F8D095BA24FC27E6000899E6 /* JSON */ = {isa = PBXFileReference; lastKnownFileType = folder; name = JSON; path = Resources/JSON; sourceTree = "<group>"; };
 		"Nimble::Nimble::Product" /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Nimble::NimbleCwlCatchException::Product" /* NimbleCwlCatchException.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NimbleCwlCatchException.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NimbleCwlCatchExceptionSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -321,7 +319,7 @@
 		OBJ_13 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		OBJ_131 /* QuickSpecBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSpecBase.h; sourceTree = "<group>"; };
 		OBJ_132 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = /Volumes/Catalina/Users/phatblat/dev/swift/PinKit/PinKit.xcodeproj/GeneratedModuleMap/QuickObjCRuntime/module.modulemap; sourceTree = "<group>"; };
-		OBJ_133 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = /Volumes/Catalina/Users/phatblat/dev/swift/PinKit/.build/checkouts/Quick/Package.swift; sourceTree = "<group>"; };
+		OBJ_133 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = /Volumes/Catalina/Users/phatblat/dev/swift/Quick/Package.swift; sourceTree = "<group>"; };
 		OBJ_144 /* PinKit.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = PinKit.xcworkspace; sourceTree = SOURCE_ROOT; };
 		OBJ_145 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		OBJ_146 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
@@ -482,21 +480,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				F8D0950424FB5E21000899E6 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F8D0950124FB5DF3000899E6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F8D0950224FB5DF3000899E6 /* XCTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		OBJ_100 /* Quick */ = {
 			isa = PBXGroup;
 			children = (
@@ -521,7 +510,7 @@
 				OBJ_127 /* World.swift */,
 			);
 			name = Quick;
-			path = .build/checkouts/Quick/Sources/Quick;
+			path = ../Quick/Sources/Quick;
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_103 /* Configuration */ = {
@@ -560,7 +549,7 @@
 				OBJ_130 /* include */,
 			);
 			name = QuickObjCRuntime;
-			path = .build/checkouts/Quick/Sources/QuickObjCRuntime;
+			path = ../Quick/Sources/QuickObjCRuntime;
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_130 /* include */ = {
@@ -575,15 +564,15 @@
 		OBJ_134 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				"Quick::QuickObjCRuntime::Product" /* QuickObjCRuntime.framework */,
+				"Nimble::NimbleCwlPreconditionTesting::Product" /* NimbleCwlPreconditionTesting.framework */,
+				"Nimble::NimbleCwlCatchException::Product" /* NimbleCwlCatchException.framework */,
 				"Nimble::Nimble::Product" /* Nimble.framework */,
 				"PinKit::PinKit::Product" /* PinKit.framework */,
 				"PinKit::PinKitTests::Product" /* PinKitTests.xctest */,
 				"Nimble::NimbleCwlMachBadInstructionHandler::Product" /* NimbleCwlMachBadInstructionHandler.framework */,
 				"Quick::Quick::Product" /* Quick.framework */,
-				"Nimble::NimbleCwlCatchException::Product" /* NimbleCwlCatchException.framework */,
-				"Nimble::NimbleCwlPreconditionTesting::Product" /* NimbleCwlPreconditionTesting.framework */,
 				"Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */,
+				"Quick::QuickObjCRuntime::Product" /* QuickObjCRuntime.framework */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -599,7 +588,7 @@
 		OBJ_15 /* PinKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				F8D094FF24FB5DD8000899E6 /* JSON */,
+				F8D095BA24FC27E6000899E6 /* JSON */,
 				OBJ_16 /* Files.swift */,
 				OBJ_17 /* PostSpec.swift */,
 				OBJ_18 /* PostsAddSpec.swift */,
@@ -615,7 +604,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_23 /* Nimble 8.1.1 */,
-				OBJ_99 /* Quick 3.0.0 */,
+				OBJ_99 /* Quick */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
@@ -725,7 +714,6 @@
 				OBJ_145 /* LICENSE.md */,
 				OBJ_146 /* Makefile */,
 				OBJ_147 /* README.md */,
-				F8D0950124FB5DF3000899E6 /* Frameworks */,
 			);
 			name = "";
 			sourceTree = "<group>";
@@ -822,14 +810,14 @@
 			path = .build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_99 /* Quick 3.0.0 */ = {
+		OBJ_99 /* Quick */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_100 /* Quick */,
 				OBJ_128 /* QuickObjCRuntime */,
 				OBJ_133 /* Package.swift */,
 			);
-			name = "Quick 3.0.0";
+			name = Quick;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -959,7 +947,7 @@
 			buildPhases = (
 				OBJ_285 /* Sources */,
 				OBJ_292 /* Frameworks */,
-				F8D094FE24FB5DBA000899E6 /* CopyFiles */,
+				F8D095B924FC27CA000899E6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -1266,92 +1254,92 @@
 		OBJ_210 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Nimble::NimbleCwlPreconditionTesting" /* NimbleCwlPreconditionTesting */;
-			targetProxy = F8D094F024FB5DB0000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D095AC24FC27AC000899E6 /* PBXContainerItemProxy */;
 		};
 		OBJ_212 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Nimble::NimbleCwlCatchException" /* NimbleCwlCatchException */;
-			targetProxy = F8D094F124FB5DB0000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D095AD24FC27AC000899E6 /* PBXContainerItemProxy */;
 		};
 		OBJ_214 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Nimble::NimbleCwlCatchExceptionSupport" /* NimbleCwlCatchExceptionSupport */;
-			targetProxy = F8D094F224FB5DB0000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D095AE24FC27AC000899E6 /* PBXContainerItemProxy */;
 		};
 		OBJ_216 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Nimble::NimbleCwlMachBadInstructionHandler" /* NimbleCwlMachBadInstructionHandler */;
-			targetProxy = F8D094F324FB5DB0000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D095AF24FC27AC000899E6 /* PBXContainerItemProxy */;
 		};
 		OBJ_225 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Nimble::NimbleCwlCatchExceptionSupport" /* NimbleCwlCatchExceptionSupport */;
-			targetProxy = F8D094ED24FB5DB0000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D095A824FC27AC000899E6 /* PBXContainerItemProxy */;
 		};
 		OBJ_250 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Nimble::NimbleCwlCatchException" /* NimbleCwlCatchException */;
-			targetProxy = F8D094EC24FB5DB0000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D095A724FC27AC000899E6 /* PBXContainerItemProxy */;
 		};
 		OBJ_251 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Nimble::NimbleCwlCatchExceptionSupport" /* NimbleCwlCatchExceptionSupport */;
-			targetProxy = F8D094EE24FB5DB0000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D095A924FC27AC000899E6 /* PBXContainerItemProxy */;
 		};
 		OBJ_252 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Nimble::NimbleCwlMachBadInstructionHandler" /* NimbleCwlMachBadInstructionHandler */;
-			targetProxy = F8D094EF24FB5DB0000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D095AA24FC27AC000899E6 /* PBXContainerItemProxy */;
 		};
 		OBJ_280 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PinKit::PinKitTests" /* PinKitTests */;
-			targetProxy = F8D094FD24FB5DB0000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D095B824FC27AC000899E6 /* PBXContainerItemProxy */;
 		};
 		OBJ_301 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Nimble::Nimble" /* Nimble */;
-			targetProxy = F8D094F524FB5DB0000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D095B024FC27AC000899E6 /* PBXContainerItemProxy */;
 		};
 		OBJ_302 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Nimble::NimbleCwlPreconditionTesting" /* NimbleCwlPreconditionTesting */;
-			targetProxy = F8D094F624FB5DB0000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D095B124FC27AC000899E6 /* PBXContainerItemProxy */;
 		};
 		OBJ_303 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Nimble::NimbleCwlCatchException" /* NimbleCwlCatchException */;
-			targetProxy = F8D094F724FB5DB0000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D095B224FC27AC000899E6 /* PBXContainerItemProxy */;
 		};
 		OBJ_304 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Nimble::NimbleCwlCatchExceptionSupport" /* NimbleCwlCatchExceptionSupport */;
-			targetProxy = F8D094F824FB5DB0000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D095B324FC27AC000899E6 /* PBXContainerItemProxy */;
 		};
 		OBJ_305 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Nimble::NimbleCwlMachBadInstructionHandler" /* NimbleCwlMachBadInstructionHandler */;
-			targetProxy = F8D094F924FB5DB0000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D095B424FC27AC000899E6 /* PBXContainerItemProxy */;
 		};
 		OBJ_306 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Quick::Quick" /* Quick */;
-			targetProxy = F8D094FA24FB5DB0000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D095B524FC27AC000899E6 /* PBXContainerItemProxy */;
 		};
 		OBJ_308 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Quick::QuickObjCRuntime" /* QuickObjCRuntime */;
-			targetProxy = F8D094FB24FB5DB0000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D095B624FC27AC000899E6 /* PBXContainerItemProxy */;
 		};
 		OBJ_310 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PinKit::PinKit" /* PinKit */;
-			targetProxy = F8D094FC24FB5DB0000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D095B724FC27AC000899E6 /* PBXContainerItemProxy */;
 		};
 		OBJ_341 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Quick::QuickObjCRuntime" /* QuickObjCRuntime */;
-			targetProxy = F8D094F424FB5DB0000899E6 /* PBXContainerItemProxy */;
+			targetProxy = F8D095AB24FC27AC000899E6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1797,7 +1785,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Dependencies/CwlCatchException/Sources/CwlCatchExceptionSupport/include",
 					"$(SRCROOT)/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/include",
-					"$(SRCROOT)/.build/checkouts/Quick/Sources/QuickObjCRuntime/include",
+					"$(SRCROOT)/../Quick/Sources/QuickObjCRuntime/include",
 					"$(SRCROOT)/PinKit.xcodeproj/GeneratedModuleMap/NimbleCwlCatchExceptionSupport",
 					"$(SRCROOT)/PinKit.xcodeproj/GeneratedModuleMap/NimbleCwlMachBadInstructionHandler",
 					"$(SRCROOT)/PinKit.xcodeproj/GeneratedModuleMap/QuickObjCRuntime",
@@ -1830,7 +1818,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Dependencies/CwlCatchException/Sources/CwlCatchExceptionSupport/include",
 					"$(SRCROOT)/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/include",
-					"$(SRCROOT)/.build/checkouts/Quick/Sources/QuickObjCRuntime/include",
+					"$(SRCROOT)/../Quick/Sources/QuickObjCRuntime/include",
 					"$(SRCROOT)/PinKit.xcodeproj/GeneratedModuleMap/NimbleCwlCatchExceptionSupport",
 					"$(SRCROOT)/PinKit.xcodeproj/GeneratedModuleMap/NimbleCwlMachBadInstructionHandler",
 					"$(SRCROOT)/PinKit.xcodeproj/GeneratedModuleMap/QuickObjCRuntime",
@@ -1887,7 +1875,7 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/.build/checkouts/Quick/Sources/QuickObjCRuntime/include",
+					"$(SRCROOT)/../Quick/Sources/QuickObjCRuntime/include",
 					"$(SRCROOT)/PinKit.xcodeproj/GeneratedModuleMap/QuickObjCRuntime",
 				);
 				INFOPLIST_FILE = PinKit.xcodeproj/Quick_Info.plist;
@@ -1919,7 +1907,7 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/.build/checkouts/Quick/Sources/QuickObjCRuntime/include",
+					"$(SRCROOT)/../Quick/Sources/QuickObjCRuntime/include",
 					"$(SRCROOT)/PinKit.xcodeproj/GeneratedModuleMap/QuickObjCRuntime",
 				);
 				INFOPLIST_FILE = PinKit.xcodeproj/Quick_Info.plist;
@@ -1952,14 +1940,18 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/.build/checkouts/Quick/Sources/QuickObjCRuntime/include",
+					"$(SRCROOT)/../Quick/Sources/QuickObjCRuntime/include",
 				);
 				INFOPLIST_FILE = PinKit.xcodeproj/QuickObjCRuntime_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+				);
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = QuickObjCRuntime;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1983,14 +1975,18 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/.build/checkouts/Quick/Sources/QuickObjCRuntime/include",
+					"$(SRCROOT)/../Quick/Sources/QuickObjCRuntime/include",
 				);
 				INFOPLIST_FILE = PinKit.xcodeproj/QuickObjCRuntime_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+				);
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = QuickObjCRuntime;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
