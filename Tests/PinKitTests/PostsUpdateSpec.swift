@@ -17,7 +17,7 @@ class PostsUpdateSpec: QuickSpec {
                 expect(postsUpdate.updateTime) == dateFormatter.date(from: "2019-02-18T21:24:00Z")!
             }
 
-            context("parsing") {
+            context("when parsed") {
                 let data = Data(from: "posts/update.json")
                 let decoder = JSONDecoder()
                 decoder.keyDecodingStrategy = .convertFromSnakeCase

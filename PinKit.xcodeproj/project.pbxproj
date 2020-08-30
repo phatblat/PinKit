@@ -22,6 +22,8 @@
 
 /* Begin PBXBuildFile section */
 		F8D095BB24FC27EC000899E6 /* JSON in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8D095BA24FC27E6000899E6 /* JSON */; };
+		F8D095BD24FC2B8D000899E6 /* PostsRecent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D095BC24FC2B8D000899E6 /* PostsRecent.swift */; };
+		F8D095C024FC2CDF000899E6 /* PostsRecentSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D095BE24FC2CAC000899E6 /* PostsRecentSpec.swift */; };
 		OBJ_153 /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* AdapterProtocols.swift */; };
 		OBJ_154 /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* AssertionDispatcher.swift */; };
 		OBJ_155 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* AssertionRecorder.swift */; };
@@ -283,6 +285,8 @@
 
 /* Begin PBXFileReference section */
 		F8D095BA24FC27E6000899E6 /* JSON */ = {isa = PBXFileReference; lastKnownFileType = folder; name = JSON; path = Resources/JSON; sourceTree = "<group>"; };
+		F8D095BC24FC2B8D000899E6 /* PostsRecent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsRecent.swift; sourceTree = "<group>"; };
+		F8D095BE24FC2CAC000899E6 /* PostsRecentSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsRecentSpec.swift; sourceTree = "<group>"; };
 		"Nimble::Nimble::Product" /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Nimble::NimbleCwlCatchException::Product" /* NimbleCwlCatchException.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NimbleCwlCatchException.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NimbleCwlCatchExceptionSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -593,6 +597,7 @@
 				OBJ_17 /* PostSpec.swift */,
 				OBJ_18 /* PostsAddSpec.swift */,
 				OBJ_19 /* PostsDeleteSpec.swift */,
+				F8D095BE24FC2CAC000899E6 /* PostsRecentSpec.swift */,
 				OBJ_20 /* PostsUpdateSpec.swift */,
 				OBJ_21 /* ServiceSpec.swift */,
 			);
@@ -744,6 +749,7 @@
 				OBJ_9 /* Post.swift */,
 				OBJ_10 /* PostsAdd.swift */,
 				OBJ_11 /* PostsDelete.swift */,
+				F8D095BC24FC2B8D000899E6 /* PostsRecent.swift */,
 				OBJ_12 /* PostsUpdate.swift */,
 				OBJ_13 /* Service.swift */,
 			);
@@ -1176,6 +1182,7 @@
 				OBJ_265 /* PostsAdd.swift in Sources */,
 				OBJ_266 /* PostsDelete.swift in Sources */,
 				OBJ_267 /* PostsUpdate.swift in Sources */,
+				F8D095BD24FC2B8D000899E6 /* PostsRecent.swift in Sources */,
 				OBJ_268 /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1198,6 +1205,7 @@
 				OBJ_289 /* PostsDeleteSpec.swift in Sources */,
 				OBJ_290 /* PostsUpdateSpec.swift in Sources */,
 				OBJ_291 /* ServiceSpec.swift in Sources */,
+				F8D095C024FC2CDF000899E6 /* PostsRecentSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
