@@ -33,6 +33,8 @@
 		F8D095CF24FC5FB5000899E6 /* TagsGetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D095CE24FC5FB5000899E6 /* TagsGetSpec.swift */; };
 		F8D095D124FCA407000899E6 /* TagsDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D095D024FCA407000899E6 /* TagsDelete.swift */; };
 		F8D095D324FCA440000899E6 /* TagsDeleteSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D095D224FCA440000899E6 /* TagsDeleteSpec.swift */; };
+		F8D095D524FCA4CA000899E6 /* TagsRename.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D095D424FCA4CA000899E6 /* TagsRename.swift */; };
+		F8D095D724FCA4EF000899E6 /* TagsRenameSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D095D624FCA4EF000899E6 /* TagsRenameSpec.swift */; };
 		OBJ_153 /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* AdapterProtocols.swift */; };
 		OBJ_154 /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* AssertionDispatcher.swift */; };
 		OBJ_155 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* AssertionRecorder.swift */; };
@@ -305,6 +307,8 @@
 		F8D095CE24FC5FB5000899E6 /* TagsGetSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsGetSpec.swift; sourceTree = "<group>"; };
 		F8D095D024FCA407000899E6 /* TagsDelete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsDelete.swift; sourceTree = "<group>"; };
 		F8D095D224FCA440000899E6 /* TagsDeleteSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsDeleteSpec.swift; sourceTree = "<group>"; };
+		F8D095D424FCA4CA000899E6 /* TagsRename.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsRename.swift; sourceTree = "<group>"; };
+		F8D095D624FCA4EF000899E6 /* TagsRenameSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsRenameSpec.swift; sourceTree = "<group>"; };
 		"Nimble::Nimble::Product" /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Nimble::NimbleCwlCatchException::Product" /* NimbleCwlCatchException.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NimbleCwlCatchException.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NimbleCwlCatchExceptionSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -621,6 +625,7 @@
 				OBJ_20 /* PostsUpdateSpec.swift */,
 				OBJ_21 /* ServiceSpec.swift */,
 				F8D095D224FCA440000899E6 /* TagsDeleteSpec.swift */,
+				F8D095D624FCA4EF000899E6 /* TagsRenameSpec.swift */,
 				F8D095CE24FC5FB5000899E6 /* TagsGetSpec.swift */,
 				F8D095CA24FC4CB2000899E6 /* TagsSuggestSpec.swift */,
 			);
@@ -778,6 +783,7 @@
 				OBJ_13 /* Service.swift */,
 				F8D095D024FCA407000899E6 /* TagsDelete.swift */,
 				F8D095CC24FC5ECF000899E6 /* TagsGet.swift */,
+				F8D095D424FCA4CA000899E6 /* TagsRename.swift */,
 				F8D095C824FC4AE7000899E6 /* TagsSuggest.swift */,
 			);
 			name = PinKit;
@@ -1207,6 +1213,7 @@
 			files = (
 				F8D095C224FC3887000899E6 /* PostsDates.swift in Sources */,
 				OBJ_264 /* Post.swift in Sources */,
+				F8D095D524FCA4CA000899E6 /* TagsRename.swift in Sources */,
 				OBJ_265 /* PostsAdd.swift in Sources */,
 				OBJ_266 /* PostsDelete.swift in Sources */,
 				OBJ_267 /* PostsUpdate.swift in Sources */,
@@ -1232,6 +1239,7 @@
 			files = (
 				F8D095CF24FC5FB5000899E6 /* TagsGetSpec.swift in Sources */,
 				OBJ_286 /* Files.swift in Sources */,
+				F8D095D724FCA4EF000899E6 /* TagsRenameSpec.swift in Sources */,
 				OBJ_287 /* PostSpec.swift in Sources */,
 				F8D095CB24FC4CB2000899E6 /* TagsSuggestSpec.swift in Sources */,
 				F8D095D324FCA440000899E6 /* TagsDeleteSpec.swift in Sources */,
