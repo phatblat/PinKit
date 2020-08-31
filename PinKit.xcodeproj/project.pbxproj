@@ -31,6 +31,8 @@
 		F8D095CB24FC4CB2000899E6 /* TagsSuggestSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D095CA24FC4CB2000899E6 /* TagsSuggestSpec.swift */; };
 		F8D095CD24FC5ECF000899E6 /* TagsGet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D095CC24FC5ECF000899E6 /* TagsGet.swift */; };
 		F8D095CF24FC5FB5000899E6 /* TagsGetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D095CE24FC5FB5000899E6 /* TagsGetSpec.swift */; };
+		F8D095D124FCA407000899E6 /* TagsDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D095D024FCA407000899E6 /* TagsDelete.swift */; };
+		F8D095D324FCA440000899E6 /* TagsDeleteSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D095D224FCA440000899E6 /* TagsDeleteSpec.swift */; };
 		OBJ_153 /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* AdapterProtocols.swift */; };
 		OBJ_154 /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* AssertionDispatcher.swift */; };
 		OBJ_155 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* AssertionRecorder.swift */; };
@@ -301,6 +303,8 @@
 		F8D095CA24FC4CB2000899E6 /* TagsSuggestSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsSuggestSpec.swift; sourceTree = "<group>"; };
 		F8D095CC24FC5ECF000899E6 /* TagsGet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsGet.swift; sourceTree = "<group>"; };
 		F8D095CE24FC5FB5000899E6 /* TagsGetSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsGetSpec.swift; sourceTree = "<group>"; };
+		F8D095D024FCA407000899E6 /* TagsDelete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsDelete.swift; sourceTree = "<group>"; };
+		F8D095D224FCA440000899E6 /* TagsDeleteSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsDeleteSpec.swift; sourceTree = "<group>"; };
 		"Nimble::Nimble::Product" /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Nimble::NimbleCwlCatchException::Product" /* NimbleCwlCatchException.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NimbleCwlCatchException.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NimbleCwlCatchExceptionSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -611,12 +615,13 @@
 				OBJ_18 /* PostsAddSpec.swift */,
 				F8D095C624FC49BA000899E6 /* PostsAllSpec.swift */,
 				F8D095C324FC3FAA000899E6 /* PostsDatesSpec.swift */,
-				F8D095CE24FC5FB5000899E6 /* TagsGetSpec.swift */,
 				OBJ_19 /* PostsDeleteSpec.swift */,
 				OBJ_17 /* PostSpec.swift */,
 				F8D095BE24FC2CAC000899E6 /* PostsRecentSpec.swift */,
 				OBJ_20 /* PostsUpdateSpec.swift */,
 				OBJ_21 /* ServiceSpec.swift */,
+				F8D095D224FCA440000899E6 /* TagsDeleteSpec.swift */,
+				F8D095CE24FC5FB5000899E6 /* TagsGetSpec.swift */,
 				F8D095CA24FC4CB2000899E6 /* TagsSuggestSpec.swift */,
 			);
 			name = PinKitTests;
@@ -771,6 +776,7 @@
 				F8D095BC24FC2B8D000899E6 /* PostsRecent.swift */,
 				OBJ_12 /* PostsUpdate.swift */,
 				OBJ_13 /* Service.swift */,
+				F8D095D024FCA407000899E6 /* TagsDelete.swift */,
 				F8D095CC24FC5ECF000899E6 /* TagsGet.swift */,
 				F8D095C824FC4AE7000899E6 /* TagsSuggest.swift */,
 			);
@@ -1206,6 +1212,7 @@
 				OBJ_267 /* PostsUpdate.swift in Sources */,
 				F8D095C924FC4AE7000899E6 /* TagsSuggest.swift in Sources */,
 				F8D095CD24FC5ECF000899E6 /* TagsGet.swift in Sources */,
+				F8D095D124FCA407000899E6 /* TagsDelete.swift in Sources */,
 				F8D095BD24FC2B8D000899E6 /* PostsRecent.swift in Sources */,
 				OBJ_268 /* Service.swift in Sources */,
 			);
@@ -1227,6 +1234,7 @@
 				OBJ_286 /* Files.swift in Sources */,
 				OBJ_287 /* PostSpec.swift in Sources */,
 				F8D095CB24FC4CB2000899E6 /* TagsSuggestSpec.swift in Sources */,
+				F8D095D324FCA440000899E6 /* TagsDeleteSpec.swift in Sources */,
 				F8D095C724FC49BA000899E6 /* PostsAllSpec.swift in Sources */,
 				OBJ_288 /* PostsAddSpec.swift in Sources */,
 				OBJ_289 /* PostsDeleteSpec.swift in Sources */,
