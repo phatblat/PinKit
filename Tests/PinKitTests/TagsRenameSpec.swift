@@ -5,7 +5,7 @@ import Foundation
 
 class TagsRenameSpec: QuickSpec {
     override func spec() {
-        describe("posts add") {
+        describe("tags rename") {
             let tagsRename = TagsRename(
                 result: "done"
             )

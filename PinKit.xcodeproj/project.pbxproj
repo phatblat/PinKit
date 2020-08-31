@@ -35,6 +35,8 @@
 		F8D095D324FCA440000899E6 /* TagsDeleteSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D095D224FCA440000899E6 /* TagsDeleteSpec.swift */; };
 		F8D095D524FCA4CA000899E6 /* TagsRename.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D095D424FCA4CA000899E6 /* TagsRename.swift */; };
 		F8D095D724FCA4EF000899E6 /* TagsRenameSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D095D624FCA4EF000899E6 /* TagsRenameSpec.swift */; };
+		F8D095D924FCC002000899E6 /* UserSecret.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D095D824FCC002000899E6 /* UserSecret.swift */; };
+		F8D095DB24FCC05C000899E6 /* UserSecretSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D095DA24FCC05C000899E6 /* UserSecretSpec.swift */; };
 		OBJ_153 /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* AdapterProtocols.swift */; };
 		OBJ_154 /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* AssertionDispatcher.swift */; };
 		OBJ_155 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* AssertionRecorder.swift */; };
@@ -309,6 +311,8 @@
 		F8D095D224FCA440000899E6 /* TagsDeleteSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsDeleteSpec.swift; sourceTree = "<group>"; };
 		F8D095D424FCA4CA000899E6 /* TagsRename.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsRename.swift; sourceTree = "<group>"; };
 		F8D095D624FCA4EF000899E6 /* TagsRenameSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsRenameSpec.swift; sourceTree = "<group>"; };
+		F8D095D824FCC002000899E6 /* UserSecret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSecret.swift; sourceTree = "<group>"; };
+		F8D095DA24FCC05C000899E6 /* UserSecretSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSecretSpec.swift; sourceTree = "<group>"; };
 		"Nimble::Nimble::Product" /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Nimble::NimbleCwlCatchException::Product" /* NimbleCwlCatchException.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NimbleCwlCatchException.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Nimble::NimbleCwlCatchExceptionSupport::Product" /* NimbleCwlCatchExceptionSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NimbleCwlCatchExceptionSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -625,9 +629,10 @@
 				OBJ_20 /* PostsUpdateSpec.swift */,
 				OBJ_21 /* ServiceSpec.swift */,
 				F8D095D224FCA440000899E6 /* TagsDeleteSpec.swift */,
-				F8D095D624FCA4EF000899E6 /* TagsRenameSpec.swift */,
 				F8D095CE24FC5FB5000899E6 /* TagsGetSpec.swift */,
+				F8D095D624FCA4EF000899E6 /* TagsRenameSpec.swift */,
 				F8D095CA24FC4CB2000899E6 /* TagsSuggestSpec.swift */,
+				F8D095DA24FCC05C000899E6 /* UserSecretSpec.swift */,
 			);
 			name = PinKitTests;
 			path = Tests/PinKitTests;
@@ -785,6 +790,7 @@
 				F8D095CC24FC5ECF000899E6 /* TagsGet.swift */,
 				F8D095D424FCA4CA000899E6 /* TagsRename.swift */,
 				F8D095C824FC4AE7000899E6 /* TagsSuggest.swift */,
+				F8D095D824FCC002000899E6 /* UserSecret.swift */,
 			);
 			name = PinKit;
 			path = Sources/PinKit;
@@ -1215,6 +1221,7 @@
 				OBJ_264 /* Post.swift in Sources */,
 				F8D095D524FCA4CA000899E6 /* TagsRename.swift in Sources */,
 				OBJ_265 /* PostsAdd.swift in Sources */,
+				F8D095D924FCC002000899E6 /* UserSecret.swift in Sources */,
 				OBJ_266 /* PostsDelete.swift in Sources */,
 				OBJ_267 /* PostsUpdate.swift in Sources */,
 				F8D095C924FC4AE7000899E6 /* TagsSuggest.swift in Sources */,
@@ -1242,6 +1249,7 @@
 				F8D095D724FCA4EF000899E6 /* TagsRenameSpec.swift in Sources */,
 				OBJ_287 /* PostSpec.swift in Sources */,
 				F8D095CB24FC4CB2000899E6 /* TagsSuggestSpec.swift in Sources */,
+				F8D095DB24FCC05C000899E6 /* UserSecretSpec.swift in Sources */,
 				F8D095D324FCA440000899E6 /* TagsDeleteSpec.swift in Sources */,
 				F8D095C724FC49BA000899E6 /* PostsAllSpec.swift in Sources */,
 				OBJ_288 /* PostsAddSpec.swift in Sources */,
