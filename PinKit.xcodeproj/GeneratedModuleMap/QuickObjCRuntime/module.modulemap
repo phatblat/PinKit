@@ -1,0 +1,4 @@
+module QuickObjCRuntime {
+    umbrella "/Volumes/Catalina/Users/phatblat/dev/swift/Quick/Sources/QuickObjCRuntime/include"
+    export *
+}

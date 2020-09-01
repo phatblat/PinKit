@@ -6,6 +6,9 @@ import Foundation
 class PostSpec: QuickSpec {
     override func spec() {
         describe("post") {
+            let dateFormatter = ISO8601DateFormatter()
+            // dateFormatter.locale = Locale(identifier: "en_US_POSIX")
+            
             let post = Post(
                 description: "a post",
                 extended: "extra",
@@ -44,6 +47,18 @@ class PostSpec: QuickSpec {
             }
             it("has a toread flag") {
                 expect(post.toread) == true
+            }
+            
+            context("when parsed") {
+                let data = Data(from: "posts/single.json")
+                let decoder = JSONDecoder()
+                decoder.keyDecodingStrategy = .convertFromSnakeCase
+                decoder.dateDecodingStrategy = .iso8601
+                let post = try! decoder.decode(Post.self, from: data)
+
+                it("can be parsed from json") {
+                    expect(post.time) == dateFormatter.date(from: "2019-02-17T05:54:24Z")!
+                }
             }
         }
     }

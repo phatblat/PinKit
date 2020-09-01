@@ -16,7 +16,7 @@ SHELL = /bin/sh
 # Swift 5.3
 # SWIFT_VERSION = swift-5.3-DEVELOPMENT-SNAPSHOT-2020-04-21-a
 
-SWIFT_VERSION = 5.2.4
+SWIFT_VERSION = 5.3
 
 # set EXECUTABLE_DIRECTORY according to your specific environment
 # run swift build and see where the output executable is created
@@ -96,22 +96,12 @@ update: resolve
 	swift package update
 
 .PHONY: build
-build: copyRunResources
+build:
 	swift build $(SWIFTC_FLAGS) $(LINKER_FLAGS)
 
 .PHONY: test
-test: build copyTestResources
+test: build
 	swift test --enable-test-discovery
-
-.PHONY: copyRunResources
-copyRunResources:
-	mkdir -p ${RUN_RESOURCES_DIRECTORY}
-	cp -r Resources/* ${RUN_RESOURCES_DIRECTORY}
-
-.PHONY: copyTestResources
-copyTestResources:
-	mkdir -p ${TEST_RESOURCES_DIRECTORY}
-	cp -r Resources/* ${TEST_RESOURCES_DIRECTORY}
 
 .PHONY: run
 # make run ARGS="asdf"

@@ -11,6 +11,43 @@ struct Post: Decodable {
     let tags: String
     let time: Date
     let toread: Bool
+
+    enum CodingKeys: String, CodingKey {
+        case description
+        case extended
+        case hash
+        case href
+        case meta
+        case shared
+        case tags
+        case time
+        case toread
+    }
+}
+
+extension Post {
+    // MARK: Decoder (custom)
+
+    public init(from decoder: Decoder) throws {
+        let values = try decoder.container(keyedBy: CodingKeys.self)
+
+        // Strings
+        description = try values.decode(String.self, forKey: .description)
+        extended = try values.decode(String.self, forKey: .extended)
+        hash = try values.decode(String.self, forKey: .hash)
+        meta = try values.decode(String.self, forKey: .meta)
+        tags = try values.decode(String.self, forKey: .tags)
+        
+        // URL
+        href = try values.decode(URL.self, forKey: .href)
+
+        // Date
+        time = try values.decode(Date.self, forKey: .time)
+        
+        // Booleans
+        shared = try values.decode(String.self, forKey: .shared) == "yes" ? true : false
+        toread = try values.decode(String.self, forKey: .toread) == "yes" ? true : false
+    }
 }
 
 /*

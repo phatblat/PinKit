@@ -1,4 +1,4 @@
 module NimbleCwlCatchExceptionSupport {
-    umbrella "/Users/phatblat/dev/swift/PinKit/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Dependencies/CwlCatchException/Sources/CwlCatchExceptionSupport/include"
+    umbrella "/Volumes/Catalina/Users/phatblat/dev/swift/PinKit/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Dependencies/CwlCatchException/Sources/CwlCatchExceptionSupport/include"
     export *
 }

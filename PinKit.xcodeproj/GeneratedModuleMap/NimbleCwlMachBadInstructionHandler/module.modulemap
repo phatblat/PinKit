@@ -1,4 +1,4 @@
 module NimbleCwlMachBadInstructionHandler {
-    umbrella "/Users/phatblat/dev/swift/PinKit/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/include"
+    umbrella "/Volumes/Catalina/Users/phatblat/dev/swift/PinKit/.build/checkouts/Nimble/Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/include"
     export *
 }
